@@ -18,16 +18,16 @@
 
     <context:annotation-config />
     <aop:aspectj-autoproxy />
-    <context:component-scan base-package="com.snowcattle.game.db" />
+    <context:component-scan base-package="com.shengjie.game.db" />
 
     <context:property-placeholder location="classpath:db_jdbc.properties" />
 
-    <bean id="dbConfig" class="com.snowcattle.game.db.service.config.DbConfig">
+    <bean id="dbConfig" class="com.shengjie.game.db.service.config.DbConfig">
         <property name="dbId" value="1"/>
         <property name="asyncDbOperationSaveWorkerSize" value="1"/>
         <property name="asyncDbOperationSelectWorkerSize" value="1"/>
-        <property name="asyncOperationPackageName" value="com.snowcattle.game.db"/>
+        <property name="asyncOperationPackageName" value="com.shengjie.game.db"/>
     </bean>
     <bean id="transactionService" class="com.redis.transaction.service.TransactionServiceImpl"/>
-    <bean class="com.snowcattle.game.common.util.BeanUtil"/>
+    <bean class="com.shengjie.game.common.util.BeanUtil"/>
 </beans>
