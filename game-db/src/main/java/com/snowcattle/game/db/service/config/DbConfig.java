@@ -1,4 +1,4 @@
-package com.shengjie.game.db.service.config;
+package com.snowcattle.game.db.service.config;
 
 import org.springframework.stereotype.Service;
 

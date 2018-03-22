@@ -1,9 +1,9 @@
-package com.shengjie.game.db.service.common.wrapper;
+package com.snowcattle.game.db.service.common.wrapper;
 
-import com.shengjie.game.db.service.async.AsyncEntityWrapper;
-import com.shengjie.game.db.common.enums.DbOperationEnum;
-import com.shengjie.game.db.service.jdbc.entity.Tocken;
-import com.shengjie.game.db.service.proxy.EntityProxyFactory;
+import com.snowcattle.game.db.service.async.AsyncEntityWrapper;
+import com.snowcattle.game.db.common.enums.DbOperationEnum;
+import com.snowcattle.game.db.service.jdbc.entity.Tocken;
+import com.snowcattle.game.db.service.proxy.EntityProxyFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.ArrayList;

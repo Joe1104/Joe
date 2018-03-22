@@ -1,7 +1,7 @@
-package com.shengjie.game.db.service.common.cache;
+package com.snowcattle.game.db.service.common.cache;
 
-import com.shengjie.game.db.entity.AbstractEntity;
-import com.shengjie.game.db.service.jdbc.entity.Order;
+import com.snowcattle.game.db.entity.AbstractEntity;
+import com.snowcattle.game.db.service.jdbc.entity.Order;
 
 /**
  * Created by jwp on 2017/3/28.

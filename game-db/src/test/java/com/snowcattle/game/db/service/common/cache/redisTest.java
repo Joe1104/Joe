@@ -1,11 +1,11 @@
-package com.shengjie.game.db.service.common.cache;
+package com.snowcattle.game.db.service.common.cache;
 
-import com.shengjie.game.db.service.redis.RedisListInterface;
-import com.shengjie.game.db.service.redis.RedisService;
-import com.shengjie.game.db.service.jdbc.entity.MoreOrder;
-import com.shengjie.game.db.service.jdbc.entity.Order;
-import com.shengjie.game.db.service.proxy.EntityProxyFactory;
-import com.shengjie.game.db.util.EntityUtils;
+import com.snowcattle.game.db.service.redis.RedisListInterface;
+import com.snowcattle.game.db.service.redis.RedisService;
+import com.snowcattle.game.db.service.jdbc.entity.MoreOrder;
+import com.snowcattle.game.db.service.jdbc.entity.Order;
+import com.snowcattle.game.db.service.proxy.EntityProxyFactory;
+import com.snowcattle.game.db.util.EntityUtils;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.ArrayList;

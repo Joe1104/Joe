@@ -1,8 +1,8 @@
-package com.shengjie.game.db.service.async;
+package com.snowcattle.game.db.service.async;
 
 import com.alibaba.fastjson.JSON;
-import com.shengjie.game.db.common.enums.DbOperationEnum;
-import com.shengjie.game.service.json.JsonSerializer;
+import com.snowcattle.game.db.common.enums.DbOperationEnum;
+import com.snowcattle.game.service.json.JsonSerializer;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.shengjie.game.db.sharding;
+package com.snowcattle.game.db.sharding;
 
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 

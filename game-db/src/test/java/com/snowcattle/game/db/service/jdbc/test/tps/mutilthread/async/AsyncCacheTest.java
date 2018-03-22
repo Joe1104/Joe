@@ -1,11 +1,11 @@
-package com.shengjie.game.db.service.jdbc.test.tps.mutilthread.async;
+package com.snowcattle.game.db.service.jdbc.test.tps.mutilthread.async;
 
-import com.shengjie.game.db.service.async.AsyncDbOperationCenter;
-import com.shengjie.game.db.service.common.uuid.SnowFlakeUUIDService;
-import com.shengjie.game.db.service.jdbc.service.entity.impl.OrderService;
-import com.shengjie.game.db.service.jdbc.test.tps.mutilthread.SaveRunable;
-import com.shengjie.game.db.service.proxy.EntityAysncServiceProxyFactory;
-import com.shengjie.game.db.service.proxy.EntityServiceProxyFactory;
+import com.snowcattle.game.db.service.async.AsyncDbOperationCenter;
+import com.snowcattle.game.db.service.common.uuid.SnowFlakeUUIDService;
+import com.snowcattle.game.db.service.jdbc.service.entity.impl.OrderService;
+import com.snowcattle.game.db.service.jdbc.test.tps.mutilthread.SaveRunable;
+import com.snowcattle.game.db.service.proxy.EntityAysncServiceProxyFactory;
+import com.snowcattle.game.db.service.proxy.EntityServiceProxyFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.concurrent.CountDownLatch;

@@ -1,8 +1,8 @@
-package com.shengjie.game.db.service.proxy;
+package com.snowcattle.game.db.service.proxy;
 
-import com.shengjie.game.db.service.async.AsyncDbRegisterCenter;
-import com.shengjie.game.db.service.redis.RedisService;
-import com.shengjie.game.db.service.entity.EntityService;
+import com.snowcattle.game.db.service.async.AsyncDbRegisterCenter;
+import com.snowcattle.game.db.service.redis.RedisService;
+import com.snowcattle.game.db.service.entity.EntityService;
 import org.apache.commons.beanutils.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cglib.proxy.Enhancer;

@@ -1,15 +1,15 @@
-package com.shengjie.game.db.service.jdbc.entity;
+package com.snowcattle.game.db.service.jdbc.entity;
 
-import com.shengjie.game.db.service.redis.AsyncSave;
-import com.shengjie.game.db.service.redis.RedisInterface;
-import com.shengjie.game.db.service.redis.RedisKeyEnum;
-import com.shengjie.game.db.common.annotation.DbMapper;
-import com.shengjie.game.db.common.annotation.EntitySave;
-import com.shengjie.game.db.common.annotation.FieldSave;
-import com.shengjie.game.db.common.annotation.MethodSaveProxy;
-import com.shengjie.game.db.entity.BaseLongIDEntity;
-import com.shengjie.game.db.service.jdbc.mapper.OrderMapper;
-import com.shengjie.game.db.util.EntityUtils;
+import com.snowcattle.game.db.service.redis.AsyncSave;
+import com.snowcattle.game.db.service.redis.RedisInterface;
+import com.snowcattle.game.db.service.redis.RedisKeyEnum;
+import com.snowcattle.game.db.common.annotation.DbMapper;
+import com.snowcattle.game.db.common.annotation.EntitySave;
+import com.snowcattle.game.db.common.annotation.FieldSave;
+import com.snowcattle.game.db.common.annotation.MethodSaveProxy;
+import com.snowcattle.game.db.entity.BaseLongIDEntity;
+import com.snowcattle.game.db.service.jdbc.mapper.OrderMapper;
+import com.snowcattle.game.db.util.EntityUtils;
 
 @EntitySave
 @DbMapper(mapper = OrderMapper.class)

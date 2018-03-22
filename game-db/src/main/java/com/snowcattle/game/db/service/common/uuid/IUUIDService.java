@@ -1,4 +1,4 @@
-package com.shengjie.game.db.service.common.uuid;
+package com.snowcattle.game.db.service.common.uuid;
 
 /**
  * Created by jiangwenping on 17/3/16.

@@ -1,12 +1,12 @@
-package com.shengjie.game.db.service.async.transaction.factory;
+package com.snowcattle.game.db.service.async.transaction.factory;
 
 import com.redis.transaction.enums.GameTransactionEntityCause;
 import com.redis.transaction.factory.GameTransactionEntityFactory;
 import com.redis.transaction.service.IRGTRedisService;
-import com.shengjie.game.db.service.async.transaction.entity.AsyncDBSaveTransactionEntity;
-import com.shengjie.game.db.service.entity.EntityService;
-import com.shengjie.game.db.service.proxy.EntityProxyFactory;
-import com.shengjie.game.db.service.redis.RedisService;
+import com.snowcattle.game.db.service.async.transaction.entity.AsyncDBSaveTransactionEntity;
+import com.snowcattle.game.db.service.entity.EntityService;
+import com.snowcattle.game.db.service.proxy.EntityProxyFactory;
+import com.snowcattle.game.db.service.redis.RedisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

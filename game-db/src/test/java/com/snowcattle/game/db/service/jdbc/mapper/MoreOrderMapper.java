@@ -1,6 +1,6 @@
-package com.shengjie.game.db.service.jdbc.mapper;
+package com.snowcattle.game.db.service.jdbc.mapper;
 
-import com.shengjie.game.db.service.jdbc.entity.MoreOrder;
+import com.snowcattle.game.db.service.jdbc.entity.MoreOrder;
 
 /**
  * Created by jiangwenping on 17/4/14.

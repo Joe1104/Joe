@@ -1,4 +1,4 @@
-package com.shengjie.game.db.service.common.aop;
+package com.snowcattle.game.db.service.common.aop;
 /**
  * Created by jwp on 2017/3/22.
  */
@@ -15,7 +15,7 @@ import org.springframework.stereotype.Controller;
 @Aspect//声明切面
 @Controller//把类交给spring管理
 public class MyInterceptor {
-    @Pointcut("execution(* com.shengjie.game..db.service.aop.PersonServiceBean.*(..))")// 切入点表达式
+    @Pointcut("execution(* com.snowcattle.game..db.service.aop.PersonServiceBean.*(..))")// 切入点表达式
     private void anyMethod() {
     }// 声明一个切入点
     @Before("anyMethod()&& args(userName)")//定义前置通知 执行业务方法前执行 args(userName) 表示要执行的方式必须为一个参数并为Person类型.这样就给他再加了限制条件

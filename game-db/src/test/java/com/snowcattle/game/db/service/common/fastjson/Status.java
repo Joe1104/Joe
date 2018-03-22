@@ -1,4 +1,4 @@
-package com.shengjie.game.db.service.common.fastjson;
+package com.snowcattle.game.db.service.common.fastjson;
 
 /**
  * Created by jiangwenping on 17/4/6.

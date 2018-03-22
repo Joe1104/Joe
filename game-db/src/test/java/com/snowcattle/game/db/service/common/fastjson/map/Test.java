@@ -1,4 +1,4 @@
-package com.shengjie.game.db.service.common.fastjson.map;
+package com.snowcattle.game.db.service.common.fastjson.map;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;

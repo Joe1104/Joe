@@ -1,6 +1,6 @@
-package com.shengjie.game.db.service.proxy;
+package com.snowcattle.game.db.service.proxy;
 
-import com.shengjie.game.db.entity.AbstractEntity;
+import com.snowcattle.game.db.entity.AbstractEntity;
 
 /**
  * Created by jwp on 2017/3/16.

@@ -1,4 +1,4 @@
-package com.shengjie.game.db.service.common.cglib;
+package com.snowcattle.game.db.service.common.cglib;
 
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;

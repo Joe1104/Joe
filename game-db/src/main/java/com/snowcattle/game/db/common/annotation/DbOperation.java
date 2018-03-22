@@ -1,6 +1,6 @@
-package com.shengjie.game.db.common.annotation;
+package com.snowcattle.game.db.common.annotation;
 
-import com.shengjie.game.db.common.enums.DbOperationEnum;
+import com.snowcattle.game.db.common.enums.DbOperationEnum;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

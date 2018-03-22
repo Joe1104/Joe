@@ -1,13 +1,13 @@
-package com.shengjie.game.db.service.redis;
+package com.snowcattle.game.db.service.redis;
 
 
-import com.shengjie.game.common.util.JsonUtils;
-import com.shengjie.game.common.util.ObjectUtils;
-import com.shengjie.game.common.util.TimeUtils;
-import com.shengjie.game.db.common.GlobalConstants;
-import com.shengjie.game.db.common.Loggers;
-import com.shengjie.game.db.entity.IEntity;
-import com.shengjie.game.db.util.*;
+import com.snowcattle.game.common.util.JsonUtils;
+import com.snowcattle.game.common.util.ObjectUtils;
+import com.snowcattle.game.common.util.TimeUtils;
+import com.snowcattle.game.db.common.GlobalConstants;
+import com.snowcattle.game.db.common.Loggers;
+import com.snowcattle.game.db.entity.IEntity;
+import com.snowcattle.game.db.util.*;
 import org.slf4j.Logger;
 import org.springframework.stereotype.Service;
 import redis.clients.jedis.Jedis;

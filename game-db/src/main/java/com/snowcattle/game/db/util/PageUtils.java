@@ -1,4 +1,4 @@
-package com.shengjie.game.db.util;
+package com.snowcattle.game.db.util;
 
 import java.util.List;
 

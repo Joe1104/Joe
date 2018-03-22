@@ -1,8 +1,8 @@
-package com.shengjie.game.db.service.common.entity;
+package com.snowcattle.game.db.service.common.entity;
 
-import com.shengjie.game.db.entity.IEntity;
-import com.shengjie.game.db.service.jdbc.entity.Order;
-import com.shengjie.game.db.service.proxy.EntityProxyFactory;
+import com.snowcattle.game.db.entity.IEntity;
+import com.snowcattle.game.db.service.jdbc.entity.Order;
+import com.snowcattle.game.db.service.proxy.EntityProxyFactory;
 
 import java.util.ArrayList;
 import java.util.Date;

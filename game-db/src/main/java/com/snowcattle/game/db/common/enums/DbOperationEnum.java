@@ -1,4 +1,4 @@
-package com.shengjie.game.db.common.enums;
+package com.snowcattle.game.db.common.enums;
 
 /**
  * Created by jwp on 2017/3/23.

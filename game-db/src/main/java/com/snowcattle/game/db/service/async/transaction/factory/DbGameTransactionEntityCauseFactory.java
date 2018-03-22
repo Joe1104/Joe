@@ -1,4 +1,4 @@
-package com.shengjie.game.db.service.async.transaction.factory;
+package com.snowcattle.game.db.service.async.transaction.factory;
 
 import com.redis.transaction.enums.GameTransactionEntityCause;
 import org.springframework.stereotype.Service;

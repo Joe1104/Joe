@@ -1,7 +1,7 @@
-package com.shengjie.game.db.service.async.thread;
+package com.snowcattle.game.db.service.async.thread;
 
-import com.shengjie.game.db.common.Loggers;
-import com.shengjie.game.db.service.entity.EntityService;
+import com.snowcattle.game.db.common.Loggers;
+import com.snowcattle.game.db.service.entity.EntityService;
 import org.slf4j.Logger;
 
 import java.util.concurrent.atomic.AtomicLong;

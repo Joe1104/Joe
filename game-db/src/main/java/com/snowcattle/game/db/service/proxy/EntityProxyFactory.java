@@ -1,7 +1,7 @@
-package com.shengjie.game.db.service.proxy;
+package com.snowcattle.game.db.service.proxy;
 
-import com.shengjie.game.db.entity.AbstractEntity;
-import com.shengjie.game.db.entity.IEntity;
+import com.snowcattle.game.db.entity.AbstractEntity;
+import com.snowcattle.game.db.entity.IEntity;
 import org.apache.commons.beanutils.BeanUtils;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.stereotype.Service;

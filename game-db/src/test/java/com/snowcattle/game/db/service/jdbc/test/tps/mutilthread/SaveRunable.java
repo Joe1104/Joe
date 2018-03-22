@@ -1,9 +1,9 @@
-package com.shengjie.game.db.service.jdbc.test.tps.mutilthread;
+package com.snowcattle.game.db.service.jdbc.test.tps.mutilthread;
 
-import com.shengjie.game.db.service.common.uuid.SnowFlakeUUIDService;
-import com.shengjie.game.db.service.jdbc.entity.Order;
-import com.shengjie.game.db.service.jdbc.service.entity.impl.OrderService;
-import com.shengjie.game.db.service.jdbc.test.TestConstants;
+import com.snowcattle.game.db.service.common.uuid.SnowFlakeUUIDService;
+import com.snowcattle.game.db.service.jdbc.entity.Order;
+import com.snowcattle.game.db.service.jdbc.service.entity.impl.OrderService;
+import com.snowcattle.game.db.service.jdbc.test.TestConstants;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicLong;

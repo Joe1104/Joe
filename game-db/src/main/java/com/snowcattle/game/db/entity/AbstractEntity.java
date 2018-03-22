@@ -1,11 +1,11 @@
-package com.shengjie.game.db.entity;
+package com.snowcattle.game.db.entity;
 
-import com.shengjie.game.db.common.annotation.EntitySave;
-import com.shengjie.game.db.common.annotation.FieldSave;
-import com.shengjie.game.db.common.annotation.MethodSaveProxy;
-import com.shengjie.game.db.service.entity.EntityKeyShardingStrategyEnum;
-import com.shengjie.game.db.service.proxy.EntityProxyWrapper;
-import com.shengjie.game.db.sharding.ShardingTable;
+import com.snowcattle.game.db.common.annotation.EntitySave;
+import com.snowcattle.game.db.common.annotation.FieldSave;
+import com.snowcattle.game.db.common.annotation.MethodSaveProxy;
+import com.snowcattle.game.db.service.entity.EntityKeyShardingStrategyEnum;
+import com.snowcattle.game.db.service.proxy.EntityProxyWrapper;
+import com.snowcattle.game.db.sharding.ShardingTable;
 
 import java.io.Serializable;
 import java.util.Date;

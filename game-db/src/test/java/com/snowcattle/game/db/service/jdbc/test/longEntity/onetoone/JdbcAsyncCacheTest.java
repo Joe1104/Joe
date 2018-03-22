@@ -1,10 +1,10 @@
-package com.shengjie.game.db.service.jdbc.test.longEntity.onetoone;
+package com.snowcattle.game.db.service.jdbc.test.longEntity.onetoone;
 
-import com.shengjie.game.db.service.async.AsyncDbOperationCenter;
-import com.shengjie.game.db.service.entity.AsyncOperationRegistry;
-import com.shengjie.game.db.service.jdbc.entity.Order;
-import com.shengjie.game.db.service.jdbc.service.entity.impl.OrderService;
-import com.shengjie.game.db.service.proxy.EntityAysncServiceProxyFactory;
+import com.snowcattle.game.db.service.async.AsyncDbOperationCenter;
+import com.snowcattle.game.db.service.entity.AsyncOperationRegistry;
+import com.snowcattle.game.db.service.jdbc.entity.Order;
+import com.snowcattle.game.db.service.jdbc.service.entity.impl.OrderService;
+import com.snowcattle.game.db.service.proxy.EntityAysncServiceProxyFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.List;

@@ -1,13 +1,13 @@
-package com.shengjie.game.db.service.async;
+package com.snowcattle.game.db.service.async;
 
-import com.shengjie.game.common.util.ExecutorUtil;
-import com.shengjie.game.db.common.DbServiceName;
-import com.shengjie.game.db.service.async.thread.AsyncDbOperation;
-import com.shengjie.game.db.service.async.thread.AsyncDbOperationMonitor;
-import com.shengjie.game.db.service.common.service.IDbService;
-import com.shengjie.game.db.service.config.DbConfig;
-import com.shengjie.game.db.service.entity.AsyncOperationRegistry;
-import com.shengjie.game.thread.executor.NonOrderedQueuePoolExecutor;
+import com.snowcattle.game.common.util.ExecutorUtil;
+import com.snowcattle.game.db.common.DbServiceName;
+import com.snowcattle.game.db.service.async.thread.AsyncDbOperation;
+import com.snowcattle.game.db.service.async.thread.AsyncDbOperationMonitor;
+import com.snowcattle.game.db.service.common.service.IDbService;
+import com.snowcattle.game.db.service.config.DbConfig;
+import com.snowcattle.game.db.service.entity.AsyncOperationRegistry;
+import com.snowcattle.game.thread.executor.NonOrderedQueuePoolExecutor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

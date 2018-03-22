@@ -1,4 +1,4 @@
-package com.shengjie.game.db.service.jdbc.test;
+package com.snowcattle.game.db.service.jdbc.test;
 
 /**
  * Created by jiangwenping on 17/4/14.

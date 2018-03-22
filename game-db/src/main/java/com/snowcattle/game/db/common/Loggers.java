@@ -1,4 +1,4 @@
-package com.shengjie.game.db.common;
+package com.snowcattle.game.db.common;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

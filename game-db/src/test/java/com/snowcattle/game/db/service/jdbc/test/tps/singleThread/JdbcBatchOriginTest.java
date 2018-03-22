@@ -1,8 +1,8 @@
-package com.shengjie.game.db.service.jdbc.test.tps.singleThread;
+package com.snowcattle.game.db.service.jdbc.test.tps.singleThread;
 
-import com.shengjie.game.db.service.jdbc.entity.Order;
-import com.shengjie.game.db.service.jdbc.mapper.OrderMapper;
-import com.shengjie.game.db.service.jdbc.test.TestConstants;
+import com.snowcattle.game.db.service.jdbc.entity.Order;
+import com.snowcattle.game.db.service.jdbc.mapper.OrderMapper;
+import com.snowcattle.game.db.service.jdbc.test.TestConstants;
 import org.apache.ibatis.session.ExecutorType;
 import org.apache.ibatis.session.SqlSession;
 import org.mybatis.spring.SqlSessionTemplate;

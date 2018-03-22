@@ -1,4 +1,4 @@
-package com.shengjie.game.db.service.common.cglib;
+package com.snowcattle.game.db.service.common.cglib;
 
 /**
  * Created by jwp on 2017/3/3.

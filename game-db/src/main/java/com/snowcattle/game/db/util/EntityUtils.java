@@ -1,12 +1,12 @@
-package com.shengjie.game.db.util;
+package com.snowcattle.game.db.util;
 
-import com.shengjie.game.common.util.ObjectUtils;
-import com.shengjie.game.db.entity.AbstractEntity;
-import com.shengjie.game.db.service.redis.RedisInterface;
-import com.shengjie.game.db.service.redis.RedisListInterface;
-import com.shengjie.game.db.common.annotation.FieldSave;
-import com.shengjie.game.db.entity.IEntity;
-import com.shengjie.game.db.service.redis.RedisService;
+import com.snowcattle.game.common.util.ObjectUtils;
+import com.snowcattle.game.db.entity.AbstractEntity;
+import com.snowcattle.game.db.service.redis.RedisInterface;
+import com.snowcattle.game.db.service.redis.RedisListInterface;
+import com.snowcattle.game.db.common.annotation.FieldSave;
+import com.snowcattle.game.db.entity.IEntity;
+import com.snowcattle.game.db.service.redis.RedisService;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

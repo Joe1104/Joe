@@ -1,7 +1,7 @@
-package com.shengjie.game.db.service.common.aop;
+package com.snowcattle.game.db.service.common.aop;
 
-import com.shengjie.game.db.service.common.aop.Person;
-import com.shengjie.game.db.service.common.aop.PersonService;
+import com.snowcattle.game.db.service.common.aop.Person;
+import com.snowcattle.game.db.service.common.aop.PersonService;
 import org.springframework.stereotype.Service;
 
 /**

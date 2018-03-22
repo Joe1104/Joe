@@ -36,8 +36,8 @@
 
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dynamicDataSource" />
-        <property name="typeAliasesPackage" value="com.shengjie.game.db.service.jdbc.entity"/>
-        <property name="typeHandlersPackage" value="com.shengjie.game.db.service.jdbc.handler"/>
+        <property name="typeAliasesPackage" value="com.snowcattle.game.db.service.jdbc.entity"/>
+        <property name="typeHandlersPackage" value="com.snowcattle.game.db.service.jdbc.handler"/>
         <property name="configLocation"  value="classpath:mybatis3/sqlMapConfig.xml"/>
         <property name="plugins">
             <array>
@@ -63,13 +63,13 @@
     </bean>
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.shengjie.game.db.service.jdbc.mapper"/>
+        <property name="basePackage" value="com.snowcattle.game.db.service.jdbc.mapper"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
     </bean>
 
 
     <!-- 所有的数据源 -->
-    <bean id="dynamicDataSource" class="com.shengjie.game.db.sharding.DynamicDataSource">
+    <bean id="dynamicDataSource" class="com.snowcattle.game.db.sharding.DynamicDataSource">
         <property name="targetDataSources">
             <map key-type="java.lang.String">
                 <entry key="jdbc_player_db0" value-ref="jdbc_player_db0"/>
@@ -131,13 +131,13 @@
         <property name="password" value="${jdbc-password-2}" />
     </bean>
 
-    <bean id="defaultEntityServiceShardingStrategy" class="com.shengjie.game.db.sharding.EntityServiceShardingStrategy">
+    <bean id="defaultEntityServiceShardingStrategy" class="com.snowcattle.game.db.sharding.EntityServiceShardingStrategy">
         <property name="dbCount" value="3"/>
         <property name="tableCount" value="2"/>
         <property name="dataSource" value="jdbc_player_db"/>
     </bean>
 
-    <bean id="defaultPageEntityServiceShardingStrategy" class="com.shengjie.game.db.sharding.EntityServiceShardingStrategy">
+    <bean id="defaultPageEntityServiceShardingStrategy" class="com.snowcattle.game.db.sharding.EntityServiceShardingStrategy">
         <property name="dbCount" value="3"/>
         <property name="tableCount" value="2"/>
         <property name="dataSource" value="jdbc_player_db"/>

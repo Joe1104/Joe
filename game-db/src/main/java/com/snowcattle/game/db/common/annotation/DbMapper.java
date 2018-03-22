@@ -1,4 +1,4 @@
-package com.shengjie.game.db.common.annotation;
+package com.snowcattle.game.db.common.annotation;
 
 import java.lang.annotation.*;
 

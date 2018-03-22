@@ -1,9 +1,9 @@
-package com.shengjie.game.db.service.jdbc.service.entity.impl;
+package com.snowcattle.game.db.service.jdbc.service.entity.impl;
 
-import com.shengjie.game.db.service.entity.EntityService;
-import com.shengjie.game.db.service.jdbc.entity.Tocken;
-import com.shengjie.game.db.service.jdbc.service.entity.ITockenService;
-import com.shengjie.game.db.sharding.EntityServiceShardingStrategy;
+import com.snowcattle.game.db.service.entity.EntityService;
+import com.snowcattle.game.db.service.jdbc.entity.Tocken;
+import com.snowcattle.game.db.service.jdbc.service.entity.ITockenService;
+import com.snowcattle.game.db.sharding.EntityServiceShardingStrategy;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

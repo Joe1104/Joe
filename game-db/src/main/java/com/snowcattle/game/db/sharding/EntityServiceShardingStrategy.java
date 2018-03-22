@@ -1,4 +1,4 @@
-package com.shengjie.game.db.sharding;
+package com.snowcattle.game.db.sharding;
 
 /**
  * Created by jwp on 2017/3/28.

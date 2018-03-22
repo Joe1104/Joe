@@ -1,7 +1,7 @@
-package com.shengjie.game.db.service.entity;
+package com.snowcattle.game.db.service.entity;
 
-import com.shengjie.game.db.entity.AbstractEntity;
-import com.shengjie.game.db.entity.IEntity;
+import com.snowcattle.game.db.entity.AbstractEntity;
+import com.snowcattle.game.db.entity.IEntity;
 
 import java.util.List;
 

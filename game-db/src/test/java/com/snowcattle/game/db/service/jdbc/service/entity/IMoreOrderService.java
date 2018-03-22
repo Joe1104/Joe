@@ -1,6 +1,6 @@
-package com.shengjie.game.db.service.jdbc.service.entity;
+package com.snowcattle.game.db.service.jdbc.service.entity;
 
-import com.shengjie.game.db.service.jdbc.entity.MoreOrder;
+import com.snowcattle.game.db.service.jdbc.entity.MoreOrder;
 
 import java.util.List;
 

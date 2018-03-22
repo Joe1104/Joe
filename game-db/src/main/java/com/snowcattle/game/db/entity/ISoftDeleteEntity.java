@@ -1,4 +1,4 @@
-package com.shengjie.game.db.entity;
+package com.snowcattle.game.db.entity;
 
 import java.io.Serializable;
 import java.util.Date;

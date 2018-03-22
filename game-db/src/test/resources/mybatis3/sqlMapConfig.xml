@@ -21,9 +21,9 @@
     </settings>
 
     <typeAliases>
-        <typeAlias alias="order" type="com.shengjie.game.db.service.jdbc.entity.Order"/>
-        <typeAlias alias="tocken" type="com.shengjie.game.db.service.jdbc.entity.Tocken"/>
-        <typeAlias alias="moreOrder" type="com.shengjie.game.db.service.jdbc.entity.MoreOrder"/>
+        <typeAlias alias="order" type="com.snowcattle.game.db.service.jdbc.entity.Order"/>
+        <typeAlias alias="tocken" type="com.snowcattle.game.db.service.jdbc.entity.Tocken"/>
+        <typeAlias alias="moreOrder" type="com.snowcattle.game.db.service.jdbc.entity.MoreOrder"/>
     </typeAliases>
 
     <mappers>

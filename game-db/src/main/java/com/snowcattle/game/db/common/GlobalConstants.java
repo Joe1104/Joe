@@ -1,4 +1,4 @@
-package com.shengjie.game.db.common;
+package com.snowcattle.game.db.common;
 
 /**
  * Created by jwp on 2017/2/28.

@@ -1,8 +1,8 @@
-package com.shengjie.game.db.service.common.uuid;
+package com.snowcattle.game.db.service.common.uuid;
 
-import com.shengjie.game.db.common.DbServiceName;
-import com.shengjie.game.db.service.common.service.IDbService;
-import com.shengjie.game.db.service.config.DbConfig;
+import com.snowcattle.game.db.common.DbServiceName;
+import com.snowcattle.game.db.service.common.service.IDbService;
+import com.snowcattle.game.db.service.config.DbConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

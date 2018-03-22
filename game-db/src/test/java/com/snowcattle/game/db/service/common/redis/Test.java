@@ -1,6 +1,6 @@
-package com.shengjie.game.db.service.common.redis;
+package com.snowcattle.game.db.service.common.redis;
 
-import com.shengjie.game.db.service.redis.RedisService;
+import com.snowcattle.game.db.service.redis.RedisService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**

@@ -1,9 +1,9 @@
-package com.shengjie.game.db.service.proxy;
+package com.snowcattle.game.db.service.proxy;
 
-import com.shengjie.game.common.util.ObjectUtils;
-import com.shengjie.game.db.common.Loggers;
-import com.shengjie.game.db.common.annotation.MethodSaveProxy;
-import com.shengjie.game.db.entity.IEntity;
+import com.snowcattle.game.common.util.ObjectUtils;
+import com.snowcattle.game.db.common.Loggers;
+import com.snowcattle.game.db.common.annotation.MethodSaveProxy;
+import com.snowcattle.game.db.entity.IEntity;
 import org.slf4j.Logger;
 import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;

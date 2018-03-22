@@ -1,4 +1,4 @@
-package com.shengjie.game.db.service.common.fastjson;
+package com.snowcattle.game.db.service.common.fastjson;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.parser.ParserConfig;

@@ -1,6 +1,6 @@
-package com.shengjie.game.db.service.jdbc.mapper;
+package com.snowcattle.game.db.service.jdbc.mapper;
 
-import com.shengjie.game.db.entity.IEntity;
+import com.snowcattle.game.db.entity.IEntity;
 import org.apache.ibatis.session.RowBounds;
 
 import java.util.List;

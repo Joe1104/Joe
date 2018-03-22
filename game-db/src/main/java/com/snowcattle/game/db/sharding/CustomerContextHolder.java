@@ -1,4 +1,4 @@
-package com.shengjie.game.db.sharding;
+package com.snowcattle.game.db.sharding;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
