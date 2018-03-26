@@ -8,7 +8,7 @@ import com.snowcattle.game.service.message.AbstractNetProtoBufUdpMessage;
 import com.snowcattle.game.service.message.command.MessageCommandIndex;
 
 /**
- * Created by jiangwenping on 2017/9/30.
+ * Created by  on 2017/9/30.
  */
 
 @MessageCommandAnnotation(command = MessageCommandIndex.ONLINE_HEART_HTTP_CLIENT_MESSAGE)

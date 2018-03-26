@@ -25,7 +25,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * Created by jiangwenping on 2017/5/22.
+ * Created by  on 2017/5/22.
  * 游戏内的事件全局服务
  */
 @Service

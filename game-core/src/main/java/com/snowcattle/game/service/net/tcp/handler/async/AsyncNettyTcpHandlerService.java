@@ -9,7 +9,7 @@ import io.netty.util.concurrent.DefaultEventExecutorGroup;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by jiangwenping on 2017/5/22.
+ * Created by  on 2017/5/22.
  * netty自带异步tcp handler服务
  */
 @Service

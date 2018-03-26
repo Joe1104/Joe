@@ -25,7 +25,7 @@ import static io.netty.handler.codec.http.HttpResponseStatus.*;
 import static io.netty.handler.codec.http.HttpVersion.HTTP_1_1;
 
 /**
- * Created by jiangwenping on 2017/11/8.
+ * Created by  on 2017/11/8.
  */
 public class WebSocketServerHandler extends SimpleChannelInboundHandler<HttpRequest> {
 

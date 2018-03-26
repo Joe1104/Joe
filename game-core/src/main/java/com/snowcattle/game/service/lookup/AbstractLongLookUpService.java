@@ -6,7 +6,7 @@ import org.slf4j.Logger;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * Created by jiangwenping on 17/2/21.
+ * Created by  on 17/2/21.
  * 抽象long型id查找内容
  */
 public abstract class AbstractLongLookUpService<T extends ILongId> implements ILongLookUpService<T>{

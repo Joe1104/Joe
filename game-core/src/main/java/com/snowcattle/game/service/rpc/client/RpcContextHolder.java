@@ -1,7 +1,7 @@
 package com.snowcattle.game.service.rpc.client;
 
 /**
- * Created by jiangwenping on 17/3/13.
+ * Created by  on 17/3/13.
  * rpc 服务器列表选择
  */
 public class RpcContextHolder {

@@ -4,7 +4,7 @@ package com.snowcattle.game.service.net.tcp.session;
 import com.snowcattle.game.executor.update.entity.AbstractUpdate;
 
 /**
- * Created by jiangwenping on 17/2/21.
+ * Created by  on 17/2/21.
  * 网络检查更新
  */
 public class TcpNetStateUpdate extends AbstractUpdate {

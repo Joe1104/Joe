@@ -3,7 +3,7 @@ package com.snowcattle.game.service.limit;
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
- * Created by jiangwenping on 2017/6/28.
+ * Created by  on 2017/6/28.
  * 原子计数器
  */
 public class AtomicLimitNumber {

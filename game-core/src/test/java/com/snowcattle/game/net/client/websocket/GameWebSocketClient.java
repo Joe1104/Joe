@@ -27,7 +27,7 @@ import java.io.InputStreamReader;
 import java.net.URI;
 
 /**
- * Created by jiangwenping on 2017/11/8.
+ * Created by  on 2017/11/8.
  */
 public final class GameWebSocketClient {
 

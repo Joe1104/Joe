@@ -1,7 +1,7 @@
 package com.snowcattle.game.service.message.command;
 
 /**
- * Created by jiangwenping on 17/2/20.
+ * Created by  on 17/2/20.
  */
 public class MessageCommandIndex {
     //
@@ -17,5 +17,7 @@ public class MessageCommandIndex {
     
     
     public static final int JOE_TEST = 101;
+    
+    public static final int JOE_TEST2 = 16061;
     
 }

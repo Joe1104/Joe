@@ -1,7 +1,7 @@
 package com.snowcattle.game.common.udp.client;
 
 /**
- * Created by jiangwenping on 17/2/16.
+ * Created by  on 17/2/16.
  */
 
 import com.snowcattle.game.service.message.decoder.NetProtoBufMessageUDPDecoder;
@@ -12,7 +12,7 @@ import io.netty.channel.socket.nio.NioDatagramChannel;
 import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 
 /**
- * Created by jiangwenping on 17/2/16.
+ * Created by  on 17/2/16.
  */
 public class UdpProtoBufClientChannelInitializer extends ChannelInitializer<NioDatagramChannel> {
     @Override

@@ -6,7 +6,7 @@ import com.snowcattle.game.service.message.AbstractNetMessage;
 import org.slf4j.Logger;
 
 /**
- * Created by jiangwenping on 17/2/20.
+ * Created by  on 17/2/20.
  */
 public class GameUdpMessageProcessor implements IMessageProcessor {
     protected static final Logger log = Loggers.msgLogger;

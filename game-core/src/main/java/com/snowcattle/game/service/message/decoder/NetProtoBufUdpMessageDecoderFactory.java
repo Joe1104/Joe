@@ -12,7 +12,7 @@ import io.netty.buffer.Unpooled;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by jiangwenping on 17/2/20.
+ * Created by  on 17/2/20.
  */
 @Service
 public class NetProtoBufUdpMessageDecoderFactory implements INetProtoBufUdpMessageDecoderFactory{

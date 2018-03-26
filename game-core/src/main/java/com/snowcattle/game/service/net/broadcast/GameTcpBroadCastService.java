@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * Created by jiangwenping on 2017/11/14.
+ * Created by  on 2017/11/14.
  */
 @Service
 public class GameTcpBroadCastService implements IBroadCastService{

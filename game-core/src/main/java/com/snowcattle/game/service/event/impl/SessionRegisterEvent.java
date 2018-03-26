@@ -6,7 +6,7 @@ import com.snowcattle.game.executor.event.SingleEvent;
 import com.snowcattle.game.service.event.SingleEventConstants;
 
 /**
- * Created by jiangwenping on 2017/5/22.
+ * Created by  on 2017/5/22.
  * 网络链接事件建立
  */
 public class SessionRegisterEvent extends SingleEvent<Long>{

@@ -11,7 +11,7 @@ import com.snowcattle.game.service.message.registry.MessageRegistry;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * Created by jiangwenping on 17/4/19.
+ * Created by  on 17/4/19.
  */
 public class TestStartUp {
     public static void startUpWithSpring() throws Exception {

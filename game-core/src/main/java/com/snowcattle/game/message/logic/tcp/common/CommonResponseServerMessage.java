@@ -7,7 +7,7 @@ import com.snowcattle.game.service.message.AbstractNetProtoBufTcpMessage;
 import com.snowcattle.game.service.message.command.MessageCommandIndex;
 
 /**
- * Created by jiangwenping on 17/2/20.
+ * Created by  on 17/2/20.
  */
 @MessageCommandAnnotation(command = MessageCommandIndex.COMMON_RESPONSE_MESSAGE)
 public class CommonResponseServerMessage extends AbstractNetProtoBufTcpMessage {

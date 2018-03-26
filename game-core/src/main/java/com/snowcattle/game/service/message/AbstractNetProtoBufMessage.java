@@ -6,7 +6,7 @@ import org.apache.commons.lang.builder.ToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
 
 /**
- * Created by jiangwenping on 17/2/3.
+ * Created by  on 17/2/3.
  * 需要重新读取body
  */
 public abstract  class AbstractNetProtoBufMessage extends AbstractNetMessage {

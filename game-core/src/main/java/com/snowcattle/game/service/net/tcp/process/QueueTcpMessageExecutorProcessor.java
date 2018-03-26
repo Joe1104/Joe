@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.concurrent.*;
 
 /**
- * Created by jiangwenping on 17/2/20.
+ * Created by  on 17/2/20.
  * 默认不开启worker线程
  */
 public class QueueTcpMessageExecutorProcessor implements ITcpMessageProcessor{

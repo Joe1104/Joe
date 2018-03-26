@@ -7,7 +7,7 @@ import org.slf4j.Logger;
 import java.lang.reflect.Field;
 
 /**
- * Created by jiangwenping on 17/4/5.
+ * Created by  on 17/4/5.
  * 抽象的spring启动
  */
 public abstract class AbstractSpringStart {

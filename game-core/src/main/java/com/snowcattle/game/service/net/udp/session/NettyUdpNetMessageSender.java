@@ -6,7 +6,7 @@ import com.snowcattle.game.service.net.tcp.session.INetMessageSender;
 import com.snowcattle.game.service.net.tcp.session.NettySession;
 
 /**
- * Created by jiangwenping on 17/2/15.
+ * Created by  on 17/2/15.
  * udp的消息发送器
  */
 public class NettyUdpNetMessageSender implements INetMessageSender {

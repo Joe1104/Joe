@@ -884,6 +884,717 @@ public final class JoeResponseServer {
     // @@protoc_insertion_point(class_scope:JoeResponse)
   }
 
+  public interface JoeReqOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:JoeReq)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>optional int32 chattype = 1 [default = 0];</code>
+     */
+    boolean hasChattype();
+    /**
+     * <code>optional int32 chattype = 1 [default = 0];</code>
+     */
+    int getChattype();
+
+    /**
+     * <code>optional string roleName = 2 [default = ""];</code>
+     */
+    boolean hasRoleName();
+    /**
+     * <code>optional string roleName = 2 [default = ""];</code>
+     */
+    java.lang.String getRoleName();
+    /**
+     * <code>optional string roleName = 2 [default = ""];</code>
+     */
+    com.google.protobuf.ByteString
+        getRoleNameBytes();
+
+    /**
+     * <code>optional string condition = 3 [default = ""];</code>
+     */
+    boolean hasCondition();
+    /**
+     * <code>optional string condition = 3 [default = ""];</code>
+     */
+    java.lang.String getCondition();
+    /**
+     * <code>optional string condition = 3 [default = ""];</code>
+     */
+    com.google.protobuf.ByteString
+        getConditionBytes();
+  }
+  /**
+   * Protobuf type {@code JoeReq}
+   */
+  public static final class JoeReq extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:JoeReq)
+      JoeReqOrBuilder {
+    // Use JoeReq.newBuilder() to construct.
+    private JoeReq(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private JoeReq(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final JoeReq defaultInstance;
+    public static JoeReq getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public JoeReq getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private JoeReq(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 8: {
+              bitField0_ |= 0x00000001;
+              chattype_ = input.readInt32();
+              break;
+            }
+            case 18: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000002;
+              roleName_ = bs;
+              break;
+            }
+            case 26: {
+              com.google.protobuf.ByteString bs = input.readBytes();
+              bitField0_ |= 0x00000004;
+              condition_ = bs;
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.snowcattle.game.message.auto.common.JoeResponseServer.internal_static_JoeReq_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.snowcattle.game.message.auto.common.JoeResponseServer.internal_static_JoeReq_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq.class, com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<JoeReq> PARSER =
+        new com.google.protobuf.AbstractParser<JoeReq>() {
+      public JoeReq parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new JoeReq(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<JoeReq> getParserForType() {
+      return PARSER;
+    }
+
+    private int bitField0_;
+    public static final int CHATTYPE_FIELD_NUMBER = 1;
+    private int chattype_;
+    /**
+     * <code>optional int32 chattype = 1 [default = 0];</code>
+     */
+    public boolean hasChattype() {
+      return ((bitField0_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>optional int32 chattype = 1 [default = 0];</code>
+     */
+    public int getChattype() {
+      return chattype_;
+    }
+
+    public static final int ROLENAME_FIELD_NUMBER = 2;
+    private java.lang.Object roleName_;
+    /**
+     * <code>optional string roleName = 2 [default = ""];</code>
+     */
+    public boolean hasRoleName() {
+      return ((bitField0_ & 0x00000002) == 0x00000002);
+    }
+    /**
+     * <code>optional string roleName = 2 [default = ""];</code>
+     */
+    public java.lang.String getRoleName() {
+      java.lang.Object ref = roleName_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          roleName_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string roleName = 2 [default = ""];</code>
+     */
+    public com.google.protobuf.ByteString
+        getRoleNameBytes() {
+      java.lang.Object ref = roleName_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        roleName_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    public static final int CONDITION_FIELD_NUMBER = 3;
+    private java.lang.Object condition_;
+    /**
+     * <code>optional string condition = 3 [default = ""];</code>
+     */
+    public boolean hasCondition() {
+      return ((bitField0_ & 0x00000004) == 0x00000004);
+    }
+    /**
+     * <code>optional string condition = 3 [default = ""];</code>
+     */
+    public java.lang.String getCondition() {
+      java.lang.Object ref = condition_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          condition_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string condition = 3 [default = ""];</code>
+     */
+    public com.google.protobuf.ByteString
+        getConditionBytes() {
+      java.lang.Object ref = condition_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        condition_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    private void initFields() {
+      chattype_ = 0;
+      roleName_ = "";
+      condition_ = "";
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        output.writeInt32(1, chattype_);
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        output.writeBytes(2, getRoleNameBytes());
+      }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        output.writeBytes(3, getConditionBytes());
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(1, chattype_);
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(2, getRoleNameBytes());
+      }
+      if (((bitField0_ & 0x00000004) == 0x00000004)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(3, getConditionBytes());
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
+    public static com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code JoeReq}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:JoeReq)
+        com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReqOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.snowcattle.game.message.auto.common.JoeResponseServer.internal_static_JoeReq_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.snowcattle.game.message.auto.common.JoeResponseServer.internal_static_JoeReq_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq.class, com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq.Builder.class);
+      }
+
+      // Construct using com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        chattype_ = 0;
+        bitField0_ = (bitField0_ & ~0x00000001);
+        roleName_ = "";
+        bitField0_ = (bitField0_ & ~0x00000002);
+        condition_ = "";
+        bitField0_ = (bitField0_ & ~0x00000004);
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.snowcattle.game.message.auto.common.JoeResponseServer.internal_static_JoeReq_descriptor;
+      }
+
+      public com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq getDefaultInstanceForType() {
+        return com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq.getDefaultInstance();
+      }
+
+      public com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq build() {
+        com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq buildPartial() {
+        com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq result = new com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        result.chattype_ = chattype_;
+        if (((from_bitField0_ & 0x00000002) == 0x00000002)) {
+          to_bitField0_ |= 0x00000002;
+        }
+        result.roleName_ = roleName_;
+        if (((from_bitField0_ & 0x00000004) == 0x00000004)) {
+          to_bitField0_ |= 0x00000004;
+        }
+        result.condition_ = condition_;
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq) {
+          return mergeFrom((com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq other) {
+        if (other == com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq.getDefaultInstance()) return this;
+        if (other.hasChattype()) {
+          setChattype(other.getChattype());
+        }
+        if (other.hasRoleName()) {
+          bitField0_ |= 0x00000002;
+          roleName_ = other.roleName_;
+          onChanged();
+        }
+        if (other.hasCondition()) {
+          bitField0_ |= 0x00000004;
+          condition_ = other.condition_;
+          onChanged();
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.snowcattle.game.message.auto.common.JoeResponseServer.JoeReq) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      private int chattype_ ;
+      /**
+       * <code>optional int32 chattype = 1 [default = 0];</code>
+       */
+      public boolean hasChattype() {
+        return ((bitField0_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>optional int32 chattype = 1 [default = 0];</code>
+       */
+      public int getChattype() {
+        return chattype_;
+      }
+      /**
+       * <code>optional int32 chattype = 1 [default = 0];</code>
+       */
+      public Builder setChattype(int value) {
+        bitField0_ |= 0x00000001;
+        chattype_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional int32 chattype = 1 [default = 0];</code>
+       */
+      public Builder clearChattype() {
+        bitField0_ = (bitField0_ & ~0x00000001);
+        chattype_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object roleName_ = "";
+      /**
+       * <code>optional string roleName = 2 [default = ""];</code>
+       */
+      public boolean hasRoleName() {
+        return ((bitField0_ & 0x00000002) == 0x00000002);
+      }
+      /**
+       * <code>optional string roleName = 2 [default = ""];</code>
+       */
+      public java.lang.String getRoleName() {
+        java.lang.Object ref = roleName_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            roleName_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string roleName = 2 [default = ""];</code>
+       */
+      public com.google.protobuf.ByteString
+          getRoleNameBytes() {
+        java.lang.Object ref = roleName_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          roleName_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string roleName = 2 [default = ""];</code>
+       */
+      public Builder setRoleName(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000002;
+        roleName_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string roleName = 2 [default = ""];</code>
+       */
+      public Builder clearRoleName() {
+        bitField0_ = (bitField0_ & ~0x00000002);
+        roleName_ = getDefaultInstance().getRoleName();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string roleName = 2 [default = ""];</code>
+       */
+      public Builder setRoleNameBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000002;
+        roleName_ = value;
+        onChanged();
+        return this;
+      }
+
+      private java.lang.Object condition_ = "";
+      /**
+       * <code>optional string condition = 3 [default = ""];</code>
+       */
+      public boolean hasCondition() {
+        return ((bitField0_ & 0x00000004) == 0x00000004);
+      }
+      /**
+       * <code>optional string condition = 3 [default = ""];</code>
+       */
+      public java.lang.String getCondition() {
+        java.lang.Object ref = condition_;
+        if (!(ref instanceof java.lang.String)) {
+          com.google.protobuf.ByteString bs =
+              (com.google.protobuf.ByteString) ref;
+          java.lang.String s = bs.toStringUtf8();
+          if (bs.isValidUtf8()) {
+            condition_ = s;
+          }
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string condition = 3 [default = ""];</code>
+       */
+      public com.google.protobuf.ByteString
+          getConditionBytes() {
+        java.lang.Object ref = condition_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          condition_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string condition = 3 [default = ""];</code>
+       */
+      public Builder setCondition(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000004;
+        condition_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string condition = 3 [default = ""];</code>
+       */
+      public Builder clearCondition() {
+        bitField0_ = (bitField0_ & ~0x00000004);
+        condition_ = getDefaultInstance().getCondition();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string condition = 3 [default = ""];</code>
+       */
+      public Builder setConditionBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000004;
+        condition_ = value;
+        onChanged();
+        return this;
+      }
+
+      // @@protoc_insertion_point(builder_scope:JoeReq)
+    }
+
+    static {
+      defaultInstance = new JoeReq(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:JoeReq)
+  }
+
   public interface JoeResponseErrorOrBuilder extends
       // @@protoc_insertion_point(interface_extends:JoeResponseError)
       com.google.protobuf.MessageOrBuilder {
@@ -1500,6 +2211,11 @@ public final class JoeResponseServer {
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_JoeResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_JoeReq_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_JoeReq_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_JoeResponseError_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
@@ -1515,10 +2231,11 @@ public final class JoeResponseServer {
     java.lang.String[] descriptorData = {
       "\n\022joe_response.proto\"E\n\013JoeResponse\022\r\n\005s" +
       "tate\030\001 \002(\005\022\014\n\004data\030\002 \001(\t\022\014\n\004list\030\003 \001(\t\022\013" +
-      "\n\003msg\030\004 \001(\t\".\n\020JoeResponseError\022\r\n\005state" +
-      "\030\001 \002(\005\022\013\n\003arg\030\002 \001(\tB<\n\'com.snowcattle.ga" +
-      "me.message.auto.commonB\021JoeResponseServe" +
-      "r"
+      "\n\003msg\030\004 \001(\t\"F\n\006JoeReq\022\023\n\010chattype\030\001 \001(\005:" +
+      "\0010\022\022\n\010roleName\030\002 \001(\t:\000\022\023\n\tcondition\030\003 \001(" +
+      "\t:\000\".\n\020JoeResponseError\022\r\n\005state\030\001 \002(\005\022\013" +
+      "\n\003arg\030\002 \001(\tB<\n\'com.snowcattle.game.messa" +
+      "ge.auto.commonB\021JoeResponseServer"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -1538,8 +2255,14 @@ public final class JoeResponseServer {
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_JoeResponse_descriptor,
         new java.lang.String[] { "State", "Data", "List", "Msg", });
-    internal_static_JoeResponseError_descriptor =
+    internal_static_JoeReq_descriptor =
       getDescriptor().getMessageTypes().get(1);
+    internal_static_JoeReq_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+        internal_static_JoeReq_descriptor,
+        new java.lang.String[] { "Chattype", "RoleName", "Condition", });
+    internal_static_JoeResponseError_descriptor =
+      getDescriptor().getMessageTypes().get(2);
     internal_static_JoeResponseError_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessage.FieldAccessorTable(
         internal_static_JoeResponseError_descriptor,

@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 import java.util.concurrent.*;
 
 /**
- * Created by jiangwenping on 17/4/19.
+ * Created by  on 17/4/19.
  * 增加异步线程池
  */
 @Service

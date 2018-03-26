@@ -1,7 +1,7 @@
 package com.snowcattle.game.service.message;
 
 /**
- * Created by jiangwenping on 2017/9/28.
+ * Created by  on 2017/9/28.
  * http消息头部
  */
 public class NetHttpMessageHead extends NetMessageHead {

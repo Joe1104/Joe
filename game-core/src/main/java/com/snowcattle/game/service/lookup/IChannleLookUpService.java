@@ -4,7 +4,7 @@ import com.snowcattle.game.service.net.tcp.session.NettySession;
 import com.snowcattle.game.service.net.tcp.session.NettyTcpSession;
 
 /**
- * Created by jiangwenping on 17/2/13.
+ * Created by  on 17/2/13.
  */
 public interface IChannleLookUpService {
 

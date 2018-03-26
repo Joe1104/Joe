@@ -24,7 +24,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * Created by jiangwenping on 17/2/8.
+ * Created by  on 17/2/8.
  */
 @Service
 public class MessageRegistry implements Reloadable, IService{

@@ -5,7 +5,7 @@ import com.snowcattle.game.service.message.AbstractNetProtoBufMessage;
 import io.netty.buffer.ByteBuf;
 
 /**
- * Created by jiangwenping on 17/2/3.
+ * Created by  on 17/2/3.
  */
 public interface INetProtoBufTcpMessageDecoderFactory extends  INetProtoBufMessageDecoderFactory{
 }

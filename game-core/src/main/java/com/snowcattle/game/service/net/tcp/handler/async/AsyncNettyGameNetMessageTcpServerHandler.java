@@ -26,7 +26,7 @@ import io.netty.handler.timeout.IdleStateEvent;
 import org.slf4j.Logger;
 
 /**
- * Created by jiangwenping on 2017/5/22.
+ * Created by  on 2017/5/22.
  * 使用AsyncNettyTcpHandlerService的handler
  *
  *  不会进行session的游戏内循环经查，断网后直接删除缓存，抛出掉线事件

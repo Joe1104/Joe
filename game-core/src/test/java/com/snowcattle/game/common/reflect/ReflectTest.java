@@ -5,7 +5,7 @@ import org.springframework.cglib.reflect.FastClass;
 import java.lang.reflect.InvocationTargetException;
 
 /**
- * Created by jiangwenping on 17/4/13.
+ * Created by  on 17/4/13.
  * 测试结果， fastclass是原生性能耗时的20倍
  */
 public class ReflectTest {

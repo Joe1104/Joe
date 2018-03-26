@@ -19,7 +19,7 @@ import org.slf4j.Logger;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by jiangwenping on 17/2/13.
+ * Created by  on 17/2/13.
  * 处理管道
  */
 @Service

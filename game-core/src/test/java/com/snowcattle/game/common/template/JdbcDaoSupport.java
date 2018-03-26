@@ -3,7 +3,7 @@ package com.snowcattle.game.common.template;
 import java.lang.reflect.ParameterizedType;
 
 /**
- * Created by jiangwenping on 17/4/10.
+ * Created by  on 17/4/10.
  */
 
 public abstract class JdbcDaoSupport<T> {

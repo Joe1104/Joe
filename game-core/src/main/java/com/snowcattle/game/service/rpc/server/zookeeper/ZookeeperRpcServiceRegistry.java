@@ -20,7 +20,7 @@ import org.springframework.stereotype.Service;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * Created by jiangwenping on 17/3/30.
+ * Created by  on 17/3/30.
  * 注册自己到zookeeper
  */
 @Service

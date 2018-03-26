@@ -9,7 +9,7 @@ import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
 
 /**
- * Created by jiangwenping on 2017/6/23.
+ * Created by  on 2017/6/23.
  * 代理前端
  */
 public class ProxyFrontendHandler extends ChannelInboundHandlerAdapter {

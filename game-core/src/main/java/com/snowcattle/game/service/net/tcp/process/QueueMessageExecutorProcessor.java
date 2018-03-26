@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.concurrent.*;
 
 /**
- * Created by jiangwenping on 17/2/13.
+ * Created by  on 17/2/13.
  */
 public class QueueMessageExecutorProcessor implements IMessageProcessor {
     public static final Logger logger = Loggers.serverStatusStatistics;

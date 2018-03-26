@@ -9,7 +9,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
- * Created by jiangwenping on 17/4/19.
+ * Created by  on 17/4/19.
  */
 public class SingleTest {
 

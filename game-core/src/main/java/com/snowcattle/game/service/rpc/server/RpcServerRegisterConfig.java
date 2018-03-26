@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by jiangwenping on 17/4/1.
+ * Created by  on 17/4/1.
  */
 @Service
 public class RpcServerRegisterConfig {

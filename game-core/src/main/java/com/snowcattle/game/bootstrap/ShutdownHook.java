@@ -4,7 +4,7 @@ import com.snowcattle.game.common.util.Assert;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * Created by jiangwenping on 16/11/18.
+ * Created by  on 16/11/18.
  */
 public class ShutdownHook implements Runnable {
 

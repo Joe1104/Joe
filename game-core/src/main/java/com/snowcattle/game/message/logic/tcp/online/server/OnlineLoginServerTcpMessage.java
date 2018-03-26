@@ -8,7 +8,7 @@ import com.snowcattle.game.service.message.AbstractNetProtoBufTcpMessage;
 import com.snowcattle.game.service.message.command.MessageCommandIndex;
 
 /**
- * Created by jiangwenping on 17/2/21.
+ * Created by  on 17/2/21.
  */
 
 @MessageCommandAnnotation(command = MessageCommandIndex.ONLINE_LOGIN_TCP_SERVER_MESSAGE)

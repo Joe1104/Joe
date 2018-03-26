@@ -8,7 +8,7 @@ import io.netty.handler.codec.http.*;
 import io.netty.handler.ssl.SslContext;
 
 /**
- * Created by jiangwenping on 2017/9/29.
+ * Created by  on 2017/9/29.
  */
 public class GameHttpClientInitializer extends ChannelInitializer<SocketChannel> {
 

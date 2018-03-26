@@ -10,7 +10,7 @@ import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 
 /**
- * Created by jiangwenping on 17/2/16.
+ * Created by  on 17/2/16.
  */
 public class UdpProtoBufServerChannelInitializer extends ChannelInitializer<NioDatagramChannel> {
     @Override

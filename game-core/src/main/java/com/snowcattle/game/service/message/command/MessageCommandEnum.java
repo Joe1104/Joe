@@ -3,7 +3,7 @@ package com.snowcattle.game.service.message.command;
 import com.snowcattle.game.common.enums.BOEnum;
 
 /**
- * Created by jiangwenping on 17/2/20.
+ * Created by  on 17/2/20.
  */
 public enum MessageCommandEnum {
 

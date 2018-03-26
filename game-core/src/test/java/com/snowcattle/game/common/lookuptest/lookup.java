@@ -8,7 +8,7 @@ import com.snowcattle.game.service.lookup.GamePlayerLoopUpService;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * Created by jiangwenping on 17/2/13.
+ * Created by  on 17/2/13.
  */
 public class lookup {
 

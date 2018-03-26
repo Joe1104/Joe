@@ -29,7 +29,7 @@ import com.snowcattle.game.thread.policy.RejectedPolicyType;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by jiangwenping on 17/2/7.
+ * Created by  on 17/2/7.
  * 各种全局的业务管理器、公共服务实例的持有者，负责各种管理器的初始化和实例的获取
  */
 public class GlobalManager {
@@ -61,6 +61,7 @@ public class GlobalManager {
 
         LocalSpringBeanManager localSpringBeanManager = (LocalSpringBeanManager) BeanUtil.getBean("localSpringBeanManager");
         LocalMananger.getInstance().setLocalSpringBeanManager(localSpringBeanManager);
+        
         LocalSpringServiceManager localSpringServiceManager = (LocalSpringServiceManager) BeanUtil.getBean("localSpringServiceManager");
         LocalMananger.getInstance().setLocalSpringServiceManager(localSpringServiceManager);
         localSpringServiceManager.start();
@@ -79,11 +80,11 @@ public class GlobalManager {
 
     public void initUpdateService() throws Exception {
         GameServerConfigService gameServerConfigService = LocalMananger.getInstance().getLocalSpringServiceManager().getGameServerConfigService();
-        EventBus eventBus = new EventBus();
+//        EventBus eventBus = new EventBus();
         EventBus updateEventBus = new EventBus();
         int corePoolSize = gameServerConfigService.getGameServerConfig().getGameExcutorCorePoolSize();
-        long keepAliveTime = gameServerConfigService.getGameServerConfig().getGameExcutorKeepAliveTime();
-        TimeUnit timeUnit = TimeUnit.SECONDS;
+//        long keepAliveTime = gameServerConfigService.getGameServerConfig().getGameExcutorKeepAliveTime();
+//        TimeUnit timeUnit = TimeUnit.SECONDS;
         GameServerConfig gameServerConfig = gameServerConfigService.getGameServerConfig();
         int cycleSleepTime = gameServerConfigService.getGameServerConfig().getGameExcutorCycleTime() / Constants.cycle.cycleSize;
         long minCycleTime = gameServerConfigService.getGameServerConfig().getGameExcutorMinCycleTime() * cycleSleepTime;

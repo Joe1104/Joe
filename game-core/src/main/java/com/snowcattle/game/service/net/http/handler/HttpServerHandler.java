@@ -31,7 +31,7 @@ import static io.netty.handler.codec.http.HttpResponseStatus.OK;
 import static io.netty.handler.codec.http.HttpVersion.HTTP_1_1;
 
 /**
- * Created by jiangwenping on 2017/7/3.
+ * Created by  on 2017/7/3.
  * 默认读取全部，不使用trunked
  */
 public class HttpServerHandler extends SimpleChannelInboundHandler<Object> {

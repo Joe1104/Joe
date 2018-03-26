@@ -27,7 +27,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 /**
- * Created by jiangwenping on 17/3/1.
+ * Created by  on 17/3/1.
  * 本地spring会话服务
  */
 @Repository

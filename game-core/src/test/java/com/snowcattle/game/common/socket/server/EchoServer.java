@@ -10,7 +10,7 @@ import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 
 /**
- * Created by jiangwenping on 17/1/22.
+ * Created by  on 17/1/22.
  */
 public class EchoServer {
 

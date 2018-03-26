@@ -23,7 +23,7 @@ import io.netty.handler.ssl.util.InsecureTrustManagerFactory;
 import java.net.URI;
 
 /**
- * Created by jiangwenping on 2017/9/29.
+ * Created by  on 2017/9/29.
  */
 public final class GameHttpClient {
     //    static final String URL = System.getProperty("url", "http://127.0.0.1:8080/");

@@ -15,7 +15,7 @@ import io.netty.handler.codec.http.HttpResponseEncoder;
 import io.netty.handler.logging.LogLevel;
 
 /**
- * Created by jiangwenping on 2017/7/3.
+ * Created by  on 2017/7/3.
  */
 
 public class GameNetProtoMessageHttpServerChannelInitializer extends ChannelInitializer<SocketChannel> {

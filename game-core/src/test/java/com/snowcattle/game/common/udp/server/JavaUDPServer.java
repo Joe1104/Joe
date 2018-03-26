@@ -5,7 +5,7 @@ import java.net.DatagramSocket;
 import java.net.SocketException;
 
 /**
- * Created by jiangwenping on 17/1/22.
+ * Created by  on 17/1/22.
  */
 public class JavaUDPServer {
     public static void main(String[] args)throws Exception{

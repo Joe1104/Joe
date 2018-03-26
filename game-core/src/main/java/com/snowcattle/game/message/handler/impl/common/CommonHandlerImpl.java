@@ -9,7 +9,7 @@ import com.snowcattle.game.service.message.command.MessageCommandIndex;
 import com.snowcattle.game.service.message.factory.TcpMessageFactory;
 
 /**
- * Created by jiangwenping on 17/2/15.
+ * Created by  on 17/2/15.
  */
 public class CommonHandlerImpl extends AbstractMessageHandler {
 

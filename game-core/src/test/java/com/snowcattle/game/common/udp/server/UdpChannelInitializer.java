@@ -6,7 +6,7 @@ import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.nio.NioDatagramChannel;
 
 /**
- * Created by jiangwenping on 17/2/16.
+ * Created by  on 17/2/16.
  */
 public class UdpChannelInitializer  extends ChannelInitializer<NioDatagramChannel> {
     @Override

@@ -1,7 +1,7 @@
 package com.snowcattle.game.service.classes.loader;
 
 /**
- * Created by jiangwenping on 17/2/8.
+ * Created by  on 17/2/8.
  */
 
 import com.snowcattle.game.common.constant.Loggers;

@@ -3,7 +3,7 @@ package com.snowcattle.game.common.util.concurrent;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * Created by jiangwenping on 2017/11/23.
+ * Created by  on 2017/11/23.
  */
 public class ConcurrentMapTest {
     public static void main(String[] args) {

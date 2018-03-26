@@ -8,7 +8,7 @@ import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 
 /**
- * Created by jiangwenping on 2017/11/14.
+ * Created by  on 2017/11/14.
  */
 public class CodeCStringClientChannelInitializer extends ChannelInitializer<NioSocketChannel> {
     @Override

@@ -4,7 +4,7 @@ import com.snowcattle.game.service.lookup.ILongId;
 import com.snowcattle.game.service.net.tcp.session.NettyTcpNetMessageSender;
 
 /**
- * Created by jiangwenping on 17/2/20.
+ * Created by  on 17/2/20.
  *
  */
 public class GamePlayer implements  IPlayer, ILongId {

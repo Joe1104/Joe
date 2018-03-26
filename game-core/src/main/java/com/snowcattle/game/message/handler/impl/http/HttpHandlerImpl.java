@@ -15,7 +15,7 @@ import com.snowcattle.game.service.net.tcp.MessageAttributeEnum;
 import com.snowcattle.game.service.net.tcp.session.NettyTcpSession;
 
 /**
- * Created by jiangwenping on 2017/9/30.
+ * Created by  on 2017/9/30.
  */
 public class HttpHandlerImpl extends AbstractMessageHandler {
 

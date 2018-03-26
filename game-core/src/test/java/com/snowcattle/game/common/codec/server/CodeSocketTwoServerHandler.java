@@ -4,7 +4,7 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
 /**
- * Created by jiangwenping on 2017/11/13.
+ * Created by  on 2017/11/13.
  */
 public class CodeSocketTwoServerHandler extends SimpleChannelInboundHandler<String> {
 

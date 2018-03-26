@@ -5,7 +5,7 @@ import com.snowcattle.game.executor.event.AbstractEventListener;
 import com.snowcattle.game.service.event.SingleEventConstants;
 
 /**
- * Created by jiangwenping on 2017/5/22.
+ * Created by  on 2017/5/22.
  *
  */
 @GlobalEventListenerAnnotation

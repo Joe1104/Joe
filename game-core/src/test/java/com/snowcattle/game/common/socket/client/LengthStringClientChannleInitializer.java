@@ -6,7 +6,7 @@ import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 import io.netty.handler.codec.string.StringDecoder;
 
 /**
- * Created by jiangwenping on 17/1/24.
+ * Created by  on 17/1/24.
  */
 public class LengthStringClientChannleInitializer extends ChannelInitializer<NioSocketChannel> {
     @Override

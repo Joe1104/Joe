@@ -1,7 +1,7 @@
 package com.snowcattle.game.service.net.tcp;
 
 /**
- * Created by jiangwenping on 17/2/13.
+ * Created by  on 17/2/13.
  */
 /**
  * @author jwp

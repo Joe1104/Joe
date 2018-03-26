@@ -5,7 +5,7 @@ import com.snowcattle.game.thread.executor.NonOrderedQueuePoolExecutor;
 import com.snowcattle.game.thread.executor.OrderedQueuePoolExecutor;
 
 /**
- * Created by jiangwenping on 17/3/10.
+ * Created by  on 17/3/10.
  */
 public class QueuePoolExecutorTest {
 

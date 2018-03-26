@@ -12,7 +12,7 @@ import org.slf4j.Logger;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * Created by jiangwenping on 17/2/6.
+ * Created by  on 17/2/6.
  *
  /**
  *
@@ -111,7 +111,7 @@ public class GameServer extends AbstractServerService {
         Runtime.getRuntime().addShutdownHook(new Thread() {
             @Override
             public void run() {
-                logger.info("Begin to shutdown Game Server ");
+                logger.info("xxxxxxxxxxxxxxxxxxxxxxxxxxxx----  Begin to shutdown Game Server ----xxxxxxxxxxxxxxxxxxxxxxxxxxxx");
                 // 设置GameServer关闭状态
                 GameServerRuntime.setShutdowning();
                 logger.info("GameServerRuntime shutdown:ok");

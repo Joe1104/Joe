@@ -14,7 +14,7 @@ import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 
 /**
- * Created by jiangwenping on 17/2/8.
+ * Created by  on 17/2/8.
  */
 
 public class GameClient {

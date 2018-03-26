@@ -7,7 +7,7 @@ import com.snowcattle.timer.WheelTimer;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by jiangwenping on 2018/1/16.
+ * Created by  on 2018/1/16.
  * 用于生命周期检查,使用wheeltimer
  */
 @Service

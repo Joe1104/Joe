@@ -1,7 +1,7 @@
 package com.snowcattle.game.common.uuid;
 
 /**
- * Created by jiangwenping on 17/2/22.
+ * Created by  on 17/2/22.
  */
 /**
  * Twitter_Snowflake<br>

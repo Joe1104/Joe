@@ -4,7 +4,7 @@ package com.snowcattle.game.common.thread.pool;
 import com.snowcattle.game.thread.worker.AbstractWork;
 
 /**
- * Created by jiangwenping on 17/3/10.
+ * Created by  on 17/3/10.
  */
 public class TestWorker extends AbstractWork {
 

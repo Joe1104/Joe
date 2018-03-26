@@ -3,7 +3,7 @@ package com.snowcattle.game.common.thread.sync;
 import java.util.concurrent.locks.Lock;
 
 /**
- * Created by jiangwenping on 17/3/7.
+ * Created by  on 17/3/7.
  */
 public class TwinsLockTest {
 

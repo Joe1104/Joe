@@ -7,7 +7,7 @@ import com.snowcattle.game.executor.event.SingleEvent;
 import java.io.Serializable;
 
 /**
- * Created by jiangwenping on 2017/5/22.
+ * Created by  on 2017/5/22.
  */
 public class SingleRunEvent extends SingleEvent {
     public SingleRunEvent(EventType eventType, Serializable eventId, long shardingId, EventParam[] parms) {

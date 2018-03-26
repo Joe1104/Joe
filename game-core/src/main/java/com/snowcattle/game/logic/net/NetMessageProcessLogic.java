@@ -29,7 +29,7 @@ import static io.netty.handler.codec.http.HttpResponseStatus.OK;
 import static io.netty.handler.codec.http.HttpVersion.HTTP_1_1;
 
 /**
- * Created by jiangwenping on 17/2/22.
+ * Created by  on 17/2/22.
  * 消息的真正处理
  */
 @Service

@@ -10,7 +10,7 @@ import java.net.InetSocketAddress;
 import java.nio.charset.Charset;
 
 /**
- * Created by jiangwenping on 17/1/22.
+ * Created by  on 17/1/22.
  */
 public class EchoJdkUdpClient {
     public static final Logger utilLogger = LoggerFactory.getLogger("util");

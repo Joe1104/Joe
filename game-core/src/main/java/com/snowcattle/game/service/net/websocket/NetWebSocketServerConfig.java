@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 import java.net.URL;
 
 /**
- * Created by jiangwenping on 2017/10/18.
+ * Created by  on 2017/10/18.
  */
 @Service
 public class NetWebSocketServerConfig extends SdNetConfig{

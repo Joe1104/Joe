@@ -22,7 +22,7 @@ import io.netty.handler.timeout.IdleStateEvent;
 import org.slf4j.Logger;
 
 /**
- * Created by jiangwenping on 2017/11/30.
+ * Created by  on 2017/11/30.
  */
 public abstract class AbstractGameNetMessageTcpServerHandler extends ChannelInboundHandlerAdapter {
 

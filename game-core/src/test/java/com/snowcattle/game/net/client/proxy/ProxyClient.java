@@ -7,7 +7,7 @@ import com.snowcattle.game.net.client.tcp.GameClient;
 import com.snowcattle.game.service.message.registry.MessageRegistry;
 
 /**
- * Created by jiangwenping on 2017/6/28.
+ * Created by  on 2017/6/28.
  */
 public class ProxyClient extends GameClient {
     public static void main(String[] args) throws Exception {

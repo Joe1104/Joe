@@ -3,7 +3,7 @@ package com.snowcattle.game.service.net.tcp.process;
 import com.snowcattle.game.service.message.AbstractNetMessage;
 
 /**
- * Created by jiangwenping on 17/2/13.
+ * Created by  on 17/2/13.
  */
 public interface IMessageProcessor {
     /**

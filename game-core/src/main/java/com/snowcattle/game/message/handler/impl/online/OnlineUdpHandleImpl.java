@@ -7,7 +7,7 @@ import com.snowcattle.game.service.message.AbstractNetMessage;
 import com.snowcattle.game.service.message.command.MessageCommandIndex;
 
 /**
- * Created by jiangwenping on 17/2/22.
+ * Created by  on 17/2/22.
  */
 public class OnlineUdpHandleImpl extends AbstractMessageHandler {
 

@@ -32,7 +32,7 @@ import io.netty.channel.socket.SocketChannel;
 import org.slf4j.Logger;
 
 /**
- * Created by jiangwenping on 17/2/15.
+ * Created by  on 17/2/15.
  * 本地网络服务
  */
 public class LocalNetService implements IService{

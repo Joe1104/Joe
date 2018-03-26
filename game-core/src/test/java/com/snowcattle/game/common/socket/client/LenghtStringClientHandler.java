@@ -6,7 +6,7 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 
 /**
- * Created by jiangwenping on 17/1/24.
+ * Created by  on 17/1/24.
  */
 public class LenghtStringClientHandler extends ChannelInboundHandlerAdapter {
     private final ByteBuf firstMessage;

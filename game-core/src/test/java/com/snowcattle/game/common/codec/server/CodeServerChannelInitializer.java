@@ -8,7 +8,7 @@ import io.netty.handler.codec.LineBasedFrameDecoder;
 import io.netty.handler.codec.string.StringDecoder;
 
 /**
- * Created by jiangwenping on 2017/11/13.
+ * Created by  on 2017/11/13.
  */
 
 public class CodeServerChannelInitializer extends ChannelInitializer<NioSocketChannel> {

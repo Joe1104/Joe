@@ -5,7 +5,7 @@ import org.jdom2.DataConversionException;
 import org.jdom2.Element;
 
 /**
- * Created by jiangwenping on 2017/7/3.
+ * Created by  on 2017/7/3.
  */
 public class SdHttpServerConfig extends SdNetConfig{
 

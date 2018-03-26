@@ -1,7 +1,7 @@
 package com.snowcattle.game.service.rpc.server;
 
 /**
- * Created by jiangwenping on 17/4/1.
+ * Created by  on 17/4/1.
  */
 public class RpcNodeInfo {
 

@@ -6,7 +6,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 
 /**
- * Created by jiangwenping on 17/3/7.
+ * Created by  on 17/3/7.
  */
 public class SingleLock implements Lock {
     private final Sync	sync	= new Sync(1);

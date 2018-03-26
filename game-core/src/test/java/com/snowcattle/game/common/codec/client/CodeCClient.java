@@ -13,7 +13,7 @@ import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 
 /**
- * Created by jiangwenping on 2017/11/14.
+ * Created by  on 2017/11/14.
  */
 
 public class CodeCClient {

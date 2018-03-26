@@ -3,7 +3,7 @@ package com.snowcattle.game.service.dict;
 import java.util.Collection;
 
 /**
- * Created by jiangwenping on 17/5/9.
+ * Created by  on 17/5/9.
  * 数据字典集合
  */
 public interface IDictCollections {

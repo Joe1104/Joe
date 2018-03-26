@@ -16,7 +16,7 @@ import com.snowcattle.game.service.net.tcp.session.NettyTcpSession;
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
- * Created by jiangwenping on 17/2/21.
+ * Created by  on 17/2/21.
  */
 public class OnlineTcpHandlerImpl extends AbstractMessageHandler {
 

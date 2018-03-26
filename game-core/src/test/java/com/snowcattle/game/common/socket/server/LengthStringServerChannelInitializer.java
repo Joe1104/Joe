@@ -6,7 +6,7 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 
 /**
- * Created by jiangwenping on 17/1/24.
+ * Created by  on 17/1/24.
  * LengthFieldBasedFrameDecoder 使用
  *  head+messagelength+serial+body
  *

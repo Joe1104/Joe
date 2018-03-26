@@ -13,7 +13,7 @@ import com.snowcattle.game.service.message.command.MessageCommandIndex;
  * 2018年2月28日
  * 下午3:35:02
  */
-@MessageCommandAnnotation(command = MessageCommandIndex.JOE_TEST)
+@MessageCommandAnnotation(command = MessageCommandIndex.JOE_TEST2)
 public class JoeResponseMessgae extends AbstractNetProtoBufTcpMessage {
 	
 	private int state;
@@ -24,11 +24,16 @@ public class JoeResponseMessgae extends AbstractNetProtoBufTcpMessage {
 	
 	private String msg;
 	
+	private String condition;
+	
 
     @Override
     public void decoderNetProtoBufMessageBody() throws CodecException, Exception {
         byte[] bytes = getNetMessageBody().getBytes();
-        JoeResponseServer.JoeResponse req = JoeResponseServer.JoeResponse.parseFrom(bytes);
+        JoeResponseServer.JoeReq req = JoeResponseServer.JoeReq.parseFrom(bytes);
+        
+        this.condition = req.getCondition();
+        
     }
 
     @Override
@@ -38,21 +43,20 @@ public class JoeResponseMessgae extends AbstractNetProtoBufTcpMessage {
 
     @Override
     public void encodeNetProtoBufMessageBody() throws CodecException, Exception {
-    	JoeResponseServer.JoeResponse.Builder builder = JoeResponseServer.JoeResponse.newBuilder();
+    	JoeResponseServer.JoeReq.Builder builder = JoeResponseServer.JoeReq.newBuilder();
     	
-    	 if(!StringUtils.isEmpty(data)) {
-             builder.setData(data);
-         }
+//    	 if(!StringUtils.isEmpty(data)) {
+             builder.setChattype(123);
+//         }
     	 
-    	 if(!StringUtils.isEmpty(list)) {
-             builder.setList(list);
-         }
+//    	 if(!StringUtils.isEmpty(list)) {
+//             builder.setList(list);
+//         }
+    	 builder.setRoleName("sdsdssssssssssssssssss");
     	 
-    	 if(!StringUtils.isEmpty(msg)) {
-             builder.setMsg(msg);
+    	 if(!StringUtils.isEmpty(condition)) {
+    		  builder.setCondition(condition);
          }
-    
-         builder.setState(state);
          
         byte[] bytes = builder.build().toByteArray();
         getNetMessageBody().setBytes(bytes);
@@ -88,6 +92,14 @@ public class JoeResponseMessgae extends AbstractNetProtoBufTcpMessage {
 
 	public void setMsg(String msg) {
 		this.msg = msg;
+	}
+
+	public String getCondition() {
+		return condition;
+	}
+
+	public void setCondition(String condition) {
+		this.condition = condition;
 	}
 
 }

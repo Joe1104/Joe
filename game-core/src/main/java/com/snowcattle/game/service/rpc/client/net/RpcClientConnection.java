@@ -14,7 +14,7 @@ import java.util.concurrent.Future;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * Created by jiangwenping on 17/3/14.
+ * Created by  on 17/3/14.
  * 管理连接
  */
 public class RpcClientConnection {

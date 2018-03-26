@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by jiangwenping on 17/2/8.
+ * Created by  on 17/2/8.
  */
 public abstract class AbstractMessageHandler implements IMessageHandler {
 

@@ -5,7 +5,7 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 
 /**
- * Created by jiangwenping on 17/2/8.
+ * Created by  on 17/2/8.
  */
 
 public class GameClientHandler  extends ChannelInboundHandlerAdapter {

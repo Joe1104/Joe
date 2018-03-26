@@ -15,7 +15,7 @@ import com.snowcattle.game.service.rpc.server.zookeeper.ZookeeperRpcServiceRegis
 import java.util.List;
 
 /**
- * Created by jiangwenping on 17/3/30.
+ * Created by  on 17/3/30.
  */
 public class ZookeeperTest {
 

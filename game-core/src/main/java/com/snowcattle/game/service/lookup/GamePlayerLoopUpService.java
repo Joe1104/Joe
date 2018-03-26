@@ -4,7 +4,7 @@ import com.snowcattle.game.logic.player.GamePlayer;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by jiangwenping on 17/2/21.
+ * Created by  on 17/2/21.
  * 玩家查找服务
  */
 @Service

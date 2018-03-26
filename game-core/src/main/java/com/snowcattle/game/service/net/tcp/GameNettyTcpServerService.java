@@ -3,7 +3,7 @@ package com.snowcattle.game.service.net.tcp;
 import io.netty.channel.ChannelInitializer;
 
 /**
- * Created by jiangwenping on 17/2/7.
+ * Created by  on 17/2/7.
  * 游戏里的的tcp服务
  *
  */

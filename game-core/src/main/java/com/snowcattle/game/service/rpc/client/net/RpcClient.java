@@ -13,7 +13,7 @@ import org.slf4j.Logger;
 import java.util.concurrent.ExecutorService;
 
 /**
- * Created by jiangwenping on 17/3/14.
+ * Created by  on 17/3/14.
  * 检查客户端连接
  */
 public class RpcClient

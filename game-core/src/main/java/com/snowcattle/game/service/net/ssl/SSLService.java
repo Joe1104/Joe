@@ -11,7 +11,7 @@ import io.netty.handler.ssl.util.SelfSignedCertificate;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by jiangwenping on 2017/6/28.
+ * Created by  on 2017/6/28.
  * websocket的ssl服务
  */
 @Service

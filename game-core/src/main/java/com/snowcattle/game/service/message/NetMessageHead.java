@@ -20,7 +20,7 @@ public class NetMessageHead {
     /**
      * 长度
      */
-    private int length;
+    private long length;
     /**
      * 命令
      */
@@ -51,11 +51,11 @@ public class NetMessageHead {
         this.version = version;
     }
 
-    public int getLength() {
+    public long getLength() {
         return length;
     }
 
-    public void setLength(int length) {
+    public void setLength(long length) {
         this.length = length;
     }
 

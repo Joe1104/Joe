@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by jiangwenping on 17/4/1.
+ * Created by  on 17/4/1.
  * 因为有些服务需要等待其它服务加载完成后，才可以加载，这里用来解决加载顺序
  */
 @Service

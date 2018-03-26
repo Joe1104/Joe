@@ -3,7 +3,7 @@ package com.snowcattle.game.service.net.proxy;
 import com.snowcattle.game.service.lookup.ILongId;
 
 /**
- * Created by jiangwenping on 2017/6/9.
+ * Created by  on 2017/6/9.
  * 代理规则
  */
 public class ProxyRule implements ILongId {

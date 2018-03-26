@@ -3,7 +3,7 @@ package com.snowcattle.game.common.collections;
 import java.util.Arrays;
 
 /**
- * Created by jiangwenping on 2017/6/22.
+ * Created by  on 2017/6/22.
  */
 public class ArrayTest {
     public static void main(String[] args) {

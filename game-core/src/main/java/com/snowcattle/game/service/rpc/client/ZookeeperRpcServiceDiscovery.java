@@ -39,7 +39,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * Created by jiangwenping on 17/3/30.
+ * Created by  on 17/3/30.
  * zookeeper发现服务
  */
 @Service

@@ -6,7 +6,7 @@ import com.snowcattle.game.service.net.tcp.session.NettyTcpSession;
 import com.snowcattle.game.service.net.tcp.session.TcpNetState;
 
 /**
- * Created by jiangwenping on 17/2/14.
+ * Created by  on 17/2/14.
  */
 public class NettyTcpSerssionUpdate extends AbstractUpdate<Long> {
 

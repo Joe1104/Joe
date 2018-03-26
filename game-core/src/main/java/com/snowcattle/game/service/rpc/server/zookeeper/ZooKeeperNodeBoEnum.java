@@ -3,7 +3,7 @@ package com.snowcattle.game.service.rpc.server.zookeeper;
 import com.snowcattle.game.common.enums.BOEnum;
 
 /**
- * Created by jiangwenping on 17/3/31.
+ * Created by  on 17/3/31.
  */
 public enum ZooKeeperNodeBoEnum {
     WORLD(BOEnum.WORLD, "/world_registry_adress"),

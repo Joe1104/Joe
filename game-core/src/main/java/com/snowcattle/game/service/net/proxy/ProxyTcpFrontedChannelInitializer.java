@@ -16,7 +16,7 @@ import io.netty.handler.logging.LogLevel;
 import io.netty.handler.timeout.IdleStateHandler;
 
 /**
- * Created by jiangwenping on 2017/6/9.
+ * Created by  on 2017/6/9.
  * 代理的网络初始化器
  */
 public class ProxyTcpFrontedChannelInitializer extends ChannelInitializer<NioSocketChannel> {

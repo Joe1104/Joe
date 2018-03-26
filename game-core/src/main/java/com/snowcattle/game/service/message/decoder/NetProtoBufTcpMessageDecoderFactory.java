@@ -12,7 +12,7 @@ import io.netty.buffer.Unpooled;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by jiangwenping on 17/2/3.
+ * Created by  on 17/2/3.
  */
 
 @Service
@@ -22,35 +22,44 @@ public class NetProtoBufTcpMessageDecoderFactory implements INetProtoBufTcpMessa
         //读取head
         NetMessageHead netMessageHead = new NetMessageHead();
         //head为两个字节，跳过
-        byteBuf.skipBytes(2);
+//        byteBuf.skipBytes(2);
 //        ByteBuf c = byteBuf.readBytes(2);
 //        System.out.println("c:"+c.toString());
         
-        int len = byteBuf.readInt();
+        long len = byteBuf.readUnsignedInt();
         netMessageHead.setLength(len);
         System.out.println("len:"+len);
         
-        byte version = byteBuf.readByte();
-        netMessageHead.setVersion(version);
-        System.out.println("version:"+version);
-        
-        //读取内容
+        //读取cmd
         short cmd = byteBuf.readShort();
         netMessageHead.setCmd(cmd);
         System.out.println("cmd:"+cmd);
         
-        netMessageHead.setSerial(byteBuf.readInt());
+        // 空2位
+        byteBuf.skipBytes(2);
+        
+//        byte version = byteBuf.readByte();
+//        netMessageHead.setVersion(version);
+//        System.out.println("version:"+version);
+        
+//        netMessageHead.setSerial(byteBuf.readInt());
 
         MessageRegistry messageRegistry = LocalMananger.getInstance().getLocalSpringServiceManager().getMessageRegistry();
         AbstractNetProtoBufMessage netMessage = messageRegistry.getMessage(cmd);
+        
+        
+        
         //读取body
         NetProtoBufMessageBody netMessageBody = new NetProtoBufMessageBody();
         int byteLength = byteBuf.readableBytes();
 //        System.out.println("byteLength:"+byteLength);
         ByteBuf bodyByteBuffer = Unpooled.buffer(256);
         byte[] bytes = new byte[byteLength];
+        
         bodyByteBuffer = byteBuf.getBytes(byteBuf.readerIndex(), bytes);
         netMessageBody.setBytes(bytes);
+        
+        
         netMessage.setNetMessageHead(netMessageHead);
         netMessage.setNetMessageBody(netMessageBody);
         try {

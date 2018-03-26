@@ -1,7 +1,7 @@
 package com.snowcattle.game.service.net.tcp;
 
 /**
- * Created by jiangwenping on 17/2/7.
+ * Created by  on 17/2/7.
  */
 
 import com.snowcattle.game.common.config.GameServerConfig;

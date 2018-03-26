@@ -12,7 +12,7 @@ import java.nio.charset.Charset;
 
 
 /**
- * Created by jiangwenping on 17/1/22.
+ * Created by  on 17/1/22.
  */
 public class UdpHandler  extends SimpleChannelInboundHandler<DatagramPacket> {
 

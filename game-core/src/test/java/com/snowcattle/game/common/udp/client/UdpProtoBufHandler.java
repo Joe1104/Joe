@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Created by jiangwenping on 17/2/16.
+ * Created by  on 17/2/16.
  */
 public class UdpProtoBufHandler  extends SimpleChannelInboundHandler<AbstractNetProtoBufMessage> {
 

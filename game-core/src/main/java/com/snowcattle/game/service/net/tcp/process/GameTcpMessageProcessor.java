@@ -7,7 +7,7 @@ import org.slf4j.Logger;
 
 
 /**
- * Created by jiangwenping on 17/2/13.
+ * Created by  on 17/2/13.
  */
 public class GameTcpMessageProcessor implements ITcpMessageProcessor {
     protected static final Logger log = Loggers.msgLogger;

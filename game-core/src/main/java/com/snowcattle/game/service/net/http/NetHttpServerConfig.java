@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 import java.net.URL;
 
 /**
- * Created by jiangwenping on 2017/7/3.
+ * Created by  on 2017/7/3.
  * http服务器配置
  */
 @Service

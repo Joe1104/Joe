@@ -6,7 +6,7 @@ import com.snowcattle.game.service.message.AbstractNetProtoBufTcpMessage;
 import com.snowcattle.game.service.message.command.MessageCommandIndex;
 
 /**
- * Created by jiangwenping on 17/2/8.
+ * Created by  on 17/2/8.
  */
 @MessageCommandAnnotation(command = MessageCommandIndex.ONLINE_HEART_CLIENT_TCP_MESSAGE)
 public class OnlineHeartClientTcpMessage extends AbstractNetProtoBufTcpMessage {

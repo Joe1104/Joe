@@ -4,7 +4,7 @@ import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 
 /**
- * Created by jiangwenping on 17/4/10.
+ * Created by  on 17/4/10.
  */
 public class ChileTemplate extends SuperTemplate<String> {
 

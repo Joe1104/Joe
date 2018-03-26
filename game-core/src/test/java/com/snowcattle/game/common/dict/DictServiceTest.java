@@ -9,7 +9,7 @@ import com.snowcattle.game.service.dict.entity.RoleSkill;
 import java.util.List;
 
 /**
- * Created by jiangwenping on 17/5/9.
+ * Created by  on 17/5/9.
  */
 public class DictServiceTest {
     public static void main(String[] args) throws Exception {

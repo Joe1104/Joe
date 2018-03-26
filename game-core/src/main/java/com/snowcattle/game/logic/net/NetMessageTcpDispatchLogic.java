@@ -10,7 +10,7 @@ import com.snowcattle.game.service.net.tcp.process.IMessageProcessor;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by jiangwenping on 17/2/15.
+ * Created by  on 17/2/15.
  */
 @Service
 public class NetMessageTcpDispatchLogic {

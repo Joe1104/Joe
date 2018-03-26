@@ -15,7 +15,7 @@ import io.netty.handler.logging.LogLevel;
 import io.netty.handler.timeout.IdleStateHandler;
 
 /**
- * Created by jiangwenping on 17/2/8.
+ * Created by  on 17/2/8.
  */
 public class GameClientChannleInitializer extends ChannelInitializer<NioSocketChannel> {
     @Override

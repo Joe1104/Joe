@@ -5,7 +5,7 @@ import org.jdom2.DataConversionException;
 import org.jdom2.Element;
 
 /**
- * Created by jiangwenping on 2017/6/27.
+ * Created by  on 2017/6/27.
  * 代理配置
  */
 public class SdProxyConfig extends SdNetConfig{
