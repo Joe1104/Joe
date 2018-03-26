@@ -1,7 +1,7 @@
 package com.snowcattle.game.common.exception;
 
 /**
- * Created by jiangwenping on 17/2/8.
+ * Created by  on 17/2/8.
  */
 public class CodecException  extends Exception {
     private static final long serialVersionUID = 1L;

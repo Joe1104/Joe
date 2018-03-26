@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by jiangwenping on 17/3/16.
+ * Created by  on 17/3/16.
  * 低15为为同一时间序列号32768, 中间10位位服务器节点最大为1024， 高38位位当前时间跟开始时间的差值，(1L << 38) / (1000L * 60 * 60 * 24 * 365) 可以用8年
  */
 @Service

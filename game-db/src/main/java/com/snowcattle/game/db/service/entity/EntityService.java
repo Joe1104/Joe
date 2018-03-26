@@ -26,7 +26,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by jiangwenping on 17/3/21.
+ * Created by  on 17/3/21.
  * 模版实体数据提服务
  * 批量应该保证它们在同一个数据库中
  */

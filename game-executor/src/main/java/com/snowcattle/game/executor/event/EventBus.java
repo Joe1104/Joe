@@ -16,7 +16,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Created by jiangwenping on 17/1/9.
+ * Created by  on 17/1/9.
  */
 public class EventBus implements IEventBus {
 

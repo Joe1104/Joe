@@ -1,7 +1,7 @@
 package com.snowcattle.game.common.constant;
 
 /**
- * Created by jiangwenping on 2017/6/6.
+ * Created by  on 2017/6/6.
  * 常用符号
  */
 public class SymbolConstants {

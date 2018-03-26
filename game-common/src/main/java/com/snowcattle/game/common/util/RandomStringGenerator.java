@@ -1,7 +1,7 @@
 package com.snowcattle.game.common.util;
 
 /**
- * Created by jiangwenping on 17/2/6.
+ * Created by  on 17/2/6.
  */
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;

@@ -17,7 +17,7 @@ import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
- * Created by jiangwenping on 17/4/24.
+ * Created by  on 17/4/24.
  * 加入disruptor
  */
 public class DisruptorDispatchThread extends DispatchThread{

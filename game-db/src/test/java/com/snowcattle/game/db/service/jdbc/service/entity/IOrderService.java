@@ -5,7 +5,7 @@ import com.snowcattle.game.db.service.jdbc.entity.Order;
 import java.util.List;
 
 /**
- * Created by jiangwenping on 17/3/20.
+ * Created by  on 17/3/20.
  */
 public interface IOrderService {
     public long insertOrder(Order order);

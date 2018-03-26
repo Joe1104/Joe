@@ -1,7 +1,7 @@
 package com.snowcattle.game.common.enums;
 
 /**
- * Created by jiangwenping on 2017/7/3.
+ * Created by  on 2017/7/3.
  * 网络类型
  */
 public enum NetTypeEnum {

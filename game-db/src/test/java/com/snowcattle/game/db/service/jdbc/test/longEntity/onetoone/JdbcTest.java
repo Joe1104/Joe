@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by jiangwenping on 17/3/20.
+ * Created by  on 17/3/20.
  */
 public class JdbcTest {
 

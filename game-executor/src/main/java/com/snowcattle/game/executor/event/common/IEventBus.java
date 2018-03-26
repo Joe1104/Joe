@@ -3,7 +3,7 @@ package com.snowcattle.game.executor.event.common;
 import com.snowcattle.game.executor.event.AbstractEventListener;
 
 /**
- * Created by jiangwenping on 17/1/6.
+ * Created by  on 17/1/6.
  * ⌚
  */
 public interface IEventBus {

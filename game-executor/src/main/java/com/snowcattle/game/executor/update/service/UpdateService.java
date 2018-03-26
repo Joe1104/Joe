@@ -18,7 +18,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 
 /**
- * Created by jiangwenping on 17/1/12.
+ * Created by  on 17/1/12.
  *  负责循环更新服务
  *  记录更新器缓存
  *  分配事件到分配线程

@@ -3,7 +3,7 @@ package com.snowcattle.game.db.service.common.fastjson.map;
 import java.util.*;
 
 /**
- * Created by jiangwenping on 17/4/10.
+ * Created by  on 17/4/10.
  */
 public class Foo {
     private String vString = "vStringhehhehe";

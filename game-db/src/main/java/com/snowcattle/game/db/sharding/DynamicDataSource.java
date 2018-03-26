@@ -3,7 +3,7 @@ package com.snowcattle.game.db.sharding;
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 
 /**
- * Created by jiangwenping on 17/3/6.
+ * Created by  on 17/3/6.
  */
 
 public class DynamicDataSource extends AbstractRoutingDataSource {

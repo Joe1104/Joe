@@ -7,7 +7,7 @@ import com.snowcattle.game.executor.common.utils.Loggers;
 import java.util.concurrent.locks.LockSupport;
 
 /**
- * Created by jiangwenping on 17/1/9.
+ * Created by  on 17/1/9.
  * 带预置锁的分配器
  *  接受create, update, finish事件
  *   负责整个调度器的调度 ,按照bus里面的大小来确定每次循环多少个

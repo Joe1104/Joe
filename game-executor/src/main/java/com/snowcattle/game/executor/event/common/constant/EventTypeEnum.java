@@ -1,7 +1,7 @@
 package com.snowcattle.game.executor.event.common.constant;
 
 /**
- * Created by jiangwenping on 17/1/9.
+ * Created by  on 17/1/9.
  * 事件类型
  */
 public enum EventTypeEnum {

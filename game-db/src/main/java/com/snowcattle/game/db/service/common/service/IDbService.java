@@ -1,7 +1,7 @@
 package com.snowcattle.game.db.service.common.service;
 
 /**
- * Created by jiangwenping on 17/4/17.
+ * Created by  on 17/4/17.
  */
 public interface IDbService {
     public String getDbServiceName();

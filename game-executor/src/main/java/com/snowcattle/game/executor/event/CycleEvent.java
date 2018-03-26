@@ -3,7 +3,7 @@ package com.snowcattle.game.executor.event;
 import java.io.Serializable;
 
 /**
- * Created by jiangwenping on 17/1/16.
+ * Created by  on 17/1/16.
  * 具有生存周期，循环调度的事件
  */
 public class CycleEvent<ID extends Serializable>  extends AbstractEvent<ID>  {

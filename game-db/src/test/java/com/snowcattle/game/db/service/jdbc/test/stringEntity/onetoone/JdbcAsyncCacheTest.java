@@ -9,7 +9,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import java.util.List;
 
 /**
- * Created by jiangwenping on 17/3/29.
+ * Created by  on 17/3/29.
  */
 public class JdbcAsyncCacheTest extends JdbcCacheTest{
 

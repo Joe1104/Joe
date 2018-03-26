@@ -10,7 +10,7 @@ import com.snowcattle.game.executor.update.entity.IUpdate;
 import com.snowcattle.game.executor.common.utils.Constants;
 
 /**
- * Created by jiangwenping on 17/1/9.
+ * Created by  on 17/1/9.
  * 带预置锁的执行器
  */
 public abstract class AbstractBindingUpdateThread extends UpdateThread {

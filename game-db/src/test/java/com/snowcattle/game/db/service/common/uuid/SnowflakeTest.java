@@ -1,7 +1,7 @@
 package com.snowcattle.game.db.service.common.uuid;
 
 /**
- * Created by jiangwenping on 17/2/27.
+ * Created by  on 17/2/27.
  */
 public class SnowflakeTest {
     public static void main(String[] args) {

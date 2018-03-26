@@ -4,7 +4,7 @@ import com.snowcattle.game.executor.event.EventBus;
 import com.snowcattle.game.executor.update.entity.IUpdate;
 
 /**
- * Created by jiangwenping on 17/1/9.
+ * Created by  on 17/1/9.
  * 事件更新执行器
  */
 public class UpdateThread implements Runnable{

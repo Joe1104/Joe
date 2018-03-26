@@ -4,7 +4,7 @@ import com.redis.transaction.enums.GameTransactionCause;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by jiangwenping on 17/4/13.
+ * Created by  on 17/4/13.
  */
 @Service
 public class DbGameTransactionCauseFactory {

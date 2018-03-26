@@ -6,7 +6,7 @@ import org.apache.commons.pool2.impl.GenericObjectPool;
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 
 /**
- * Created by jiangwenping on 17/4/26.
+ * Created by  on 17/4/26.
  * updateevent因为使用太频繁，使用commonpool2缓存
  */
 public class UpdateEventCacheFactory extends GenericObjectPool<UpdateEvent> {

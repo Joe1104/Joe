@@ -5,7 +5,7 @@ import com.snowcattle.game.executor.event.common.IEvent;
 import java.io.Serializable;
 
 /**
- * Created by jiangwenping on 17/1/9.
+ * Created by  on 17/1/9.
  */
 public abstract  class AbstractEvent<ID extends Serializable> implements IEvent {
 

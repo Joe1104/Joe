@@ -9,7 +9,7 @@ import com.snowcattle.game.executor.event.impl.listener.UpdateEventListener;
 import com.snowcattle.game.executor.common.utils.Constants;
 
 /**
- * Created by jiangwenping on 17/1/9.
+ * Created by  on 17/1/9.
  */
 public class SynsEventBusTest {
     public static void main(String[] args) {

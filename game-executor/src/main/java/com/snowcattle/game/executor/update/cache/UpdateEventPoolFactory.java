@@ -6,7 +6,7 @@ import org.apache.commons.pool2.PooledObjectFactory;
 import org.apache.commons.pool2.impl.DefaultPooledObject;
 
 /**
- * Created by jiangwenping on 17/4/26.
+ * Created by  on 17/4/26.
  */
 public class UpdateEventPoolFactory implements PooledObjectFactory<UpdateEvent>{
     @Override

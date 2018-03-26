@@ -4,7 +4,7 @@ import com.snowcattle.game.executor.common.utils.Constants;
 import com.snowcattle.game.executor.event.AbstractEventListener;
 
 /**
- * Created by jiangwenping on 17/1/9.
+ * Created by  on 17/1/9.
  * 创建监听器
  */
 public class CreateEventListener extends AbstractEventListener {

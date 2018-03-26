@@ -4,7 +4,7 @@ import com.snowcattle.game.db.service.redis.RedisService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * Created by jiangwenping on 17/4/7.
+ * Created by  on 17/4/7.
  * 这个可是用于测试 能否保证insert总是update执行，并且不丢sql数据
  */
 public class Test {

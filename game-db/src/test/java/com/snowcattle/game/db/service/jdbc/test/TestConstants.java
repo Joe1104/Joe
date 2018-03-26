@@ -1,7 +1,7 @@
 package com.snowcattle.game.db.service.jdbc.test;
 
 /**
- * Created by jiangwenping on 17/4/14.
+ * Created by  on 17/4/14.
  */
 public class TestConstants {
 

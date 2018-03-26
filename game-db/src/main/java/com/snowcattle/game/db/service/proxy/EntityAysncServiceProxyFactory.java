@@ -9,7 +9,7 @@ import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by jiangwenping on 17/3/29.
+ * Created by  on 17/3/29.
  * 实体存储异步代理服务工厂
  */
 @Service

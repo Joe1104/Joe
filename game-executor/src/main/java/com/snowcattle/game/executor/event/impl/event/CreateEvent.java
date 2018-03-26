@@ -8,7 +8,7 @@ import com.snowcattle.game.executor.common.utils.Loggers;
 import java.io.Serializable;
 
 /**
- * Created by jiangwenping on 17/1/11.
+ * Created by  on 17/1/11.
  *  dispatch thread使用
  */
 public class CreateEvent<ID extends Serializable> extends CycleEvent {

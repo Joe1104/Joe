@@ -9,7 +9,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Created by jiangwenping on 17/4/26.
+ * Created by  on 17/4/26.
  */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)

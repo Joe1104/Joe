@@ -1,7 +1,7 @@
 package com.snowcattle.game.common.exception;
 
 /**
- * Created by jiangwenping on 17/3/13.
+ * Created by  on 17/3/13.
  */
 public class StartUpException extends Exception{
     /**

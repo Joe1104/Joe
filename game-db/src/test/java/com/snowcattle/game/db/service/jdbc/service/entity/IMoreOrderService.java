@@ -5,7 +5,7 @@ import com.snowcattle.game.db.service.jdbc.entity.MoreOrder;
 import java.util.List;
 
 /**
- * Created by jiangwenping on 17/4/5.
+ * Created by  on 17/4/5.
  */
 public interface IMoreOrderService {
     public List<MoreOrder> getMoreOrderList(MoreOrder moreOrder);

@@ -10,6 +10,12 @@ message JoeResponse
 	 optional string msg = 4;
 }
 
+message JoeReq
+{
+	optional int32 chattype = 1 [default = 0 ];
+	optional string roleName = 2 [default = "" ];
+	optional string condition = 3 [default = "" ];
+}
 
 message JoeResponseError
 {

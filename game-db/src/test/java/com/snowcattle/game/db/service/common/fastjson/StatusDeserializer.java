@@ -7,7 +7,7 @@ import com.alibaba.fastjson.parser.deserializer.ObjectDeserializer;
 import java.lang.reflect.Type;
 
 /**
- * Created by jiangwenping on 17/4/6.
+ * Created by  on 17/4/6.
  */
 public class StatusDeserializer implements ObjectDeserializer {
 

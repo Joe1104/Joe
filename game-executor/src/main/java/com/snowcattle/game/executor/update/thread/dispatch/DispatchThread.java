@@ -5,7 +5,7 @@ import com.snowcattle.game.executor.event.common.IEvent;
 import com.snowcattle.game.executor.update.pool.IUpdateExecutor;
 
 /**
- * Created by jiangwenping on 17/1/9.
+ * Created by  on 17/1/9.
  * ⌚事件分配器
  */
 public abstract class DispatchThread extends Thread{

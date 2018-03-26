@@ -1,7 +1,7 @@
 package com.snowcattle.game.executor.update.async;
 
 /**
- * Created by jiangwenping on 17/1/12.
+ * Created by  on 17/1/12.
  */
 
 import com.snowcattle.game.executor.event.CycleEvent;
@@ -17,7 +17,7 @@ import com.snowcattle.game.executor.common.utils.Constants;
 import com.snowcattle.game.thread.policy.RejectedPolicyType;
 
 /**
- * Created by jiangwenping on 17/1/9.
+ * Created by  on 17/1/9.
  */
 public class AsyncUpdateBusTest {
     public static void main(String[] args) throws Exception {

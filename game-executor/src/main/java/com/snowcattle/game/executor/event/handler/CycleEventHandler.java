@@ -7,7 +7,7 @@ import com.snowcattle.game.executor.event.CycleEvent;
 import com.snowcattle.game.executor.event.EventBus;
 
 /**
- * Created by jiangwenping on 17/4/24.
+ * Created by  on 17/4/24.
  */
 public class CycleEventHandler implements WorkHandler<CycleEvent>, EventReleaseAware{
 

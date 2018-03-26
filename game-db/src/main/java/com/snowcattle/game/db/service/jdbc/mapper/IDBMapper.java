@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by jiangwenping on 17/3/21.
+ * Created by  on 17/3/21.
  * 基础mapper
  */
 public interface IDBMapper<T extends IEntity> {

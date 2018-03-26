@@ -4,7 +4,7 @@ import com.snowcattle.game.executor.update.entity.AbstractUpdate;
 import com.snowcattle.game.executor.common.utils.Loggers;
 
 /**
- * Created by jiangwenping on 17/1/16.
+ * Created by  on 17/1/16.
  */
 public class IntegerUpdate extends AbstractUpdate<Long> {
 

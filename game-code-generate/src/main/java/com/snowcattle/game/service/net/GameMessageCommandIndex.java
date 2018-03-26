@@ -1,7 +1,7 @@
 package com.snowcattle.game.service.net;
 
 /**
- * Created by jiangwenping on 17/5/8.
+ * Created by  on 17/5/8.
  * 消息协议号索引
  */
 public class GameMessageCommandIndex {

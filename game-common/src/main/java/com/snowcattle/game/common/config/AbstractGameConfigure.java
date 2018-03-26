@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 /**
- * Created by jiangwenping on 17/3/30.
+ * Created by  on 17/3/30.
  * 获取properties配置文件
  */
 public abstract class AbstractGameConfigure implements GameConfigurable{

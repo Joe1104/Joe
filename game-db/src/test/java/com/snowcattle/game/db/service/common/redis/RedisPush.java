@@ -3,7 +3,7 @@ package com.snowcattle.game.db.service.common.redis;
 import com.snowcattle.game.db.service.redis.RedisService;
 
 /**
- * Created by jiangwenping on 17/4/7.
+ * Created by  on 17/4/7.
  */
 public class RedisPush extends Thread{
 

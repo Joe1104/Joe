@@ -5,7 +5,7 @@ import com.snowcattle.game.service.message.command.MessageCommandFactory;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by jiangwenping on 2017/5/10.
+ * Created by  on 2017/5/10.
  */
 @Service
 public class GameMessageCommandFactory extends MessageCommandFactory {

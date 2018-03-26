@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by jiangwenping on 17/4/6.
+ * Created by  on 17/4/6.
  * 异步实体封装箱, 里面包含了实体的快照
  *  所有需要异步存储的实体，都会包装在这里，然后传递到异步队列里面
  */

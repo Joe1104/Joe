@@ -1,7 +1,7 @@
 package com.snowcattle.game.executor.event;
 
 /**
- * Created by jiangwenping on 17/1/6.
+ * Created by  on 17/1/6.
  * 事件类型
  */
 public class EventType {

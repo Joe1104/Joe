@@ -8,7 +8,7 @@ import java.util.Date;
 import java.util.Random;
 
 /**
- * Created by jiangwenping on 17/4/10.
+ * Created by  on 17/4/10.
  */
 public class Bar {
     public static SerializeConfig mapping = new SerializeConfig();

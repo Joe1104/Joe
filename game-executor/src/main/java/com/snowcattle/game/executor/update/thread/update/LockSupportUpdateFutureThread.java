@@ -4,7 +4,7 @@ import com.snowcattle.game.executor.update.thread.dispatch.DispatchThread;
 import com.snowcattle.game.executor.update.entity.IUpdate;
 
 /**
- * Created by jiangwenping on 17/1/18.
+ * Created by  on 17/1/18.
  *
  */
 public class LockSupportUpdateFutureThread implements Runnable {

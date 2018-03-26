@@ -1,7 +1,7 @@
 package com.snowcattle.game.db.sharding;
 
 /**
- * Created by jiangwenping on 17/3/20.
+ * Created by  on 17/3/20.
  */
 public abstract class AbstractShardingTable {
 

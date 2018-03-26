@@ -5,7 +5,7 @@ import com.snowcattle.game.executor.event.EventType;
 import com.snowcattle.game.executor.event.impl.event.UpdateEvent;
 
 /**
- * Created by jiangwenping on 17/1/12.
+ * Created by  on 17/1/12.
  */
 public class TestUpdateEvent extends UpdateEvent {
 

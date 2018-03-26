@@ -17,7 +17,7 @@ import com.snowcattle.game.thread.executor.NonOrderedQueuePoolExecutor;
 import java.util.concurrent.ExecutorService;
 
 /**
- * Created by jiangwenping on 17/4/24.
+ * Created by  on 17/4/24.
  */
 public class DisruptorExecutorService implements IUpdateExecutor {
 

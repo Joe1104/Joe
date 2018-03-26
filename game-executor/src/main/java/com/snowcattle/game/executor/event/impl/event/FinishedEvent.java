@@ -7,7 +7,7 @@ import com.snowcattle.game.executor.event.EventType;
 import java.io.Serializable;
 
 /**
- * Created by jiangwenping on 17/2/21.
+ * Created by  on 17/2/21.
  * updateService使用
  */
 public class FinishedEvent<ID extends Serializable> extends CycleEvent {

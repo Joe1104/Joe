@@ -8,7 +8,7 @@ import com.alibaba.fastjson.serializer.SimpleDateFormatSerializer;
 import java.util.*;
 
 /**
- * Created by jiangwenping on 17/4/10.
+ * Created by  on 17/4/10.
  */
 public class Test {
     private static SerializeConfig mapping = new SerializeConfig();

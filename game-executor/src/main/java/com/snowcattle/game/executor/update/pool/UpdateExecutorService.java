@@ -14,7 +14,7 @@ import com.snowcattle.game.thread.policy.RejectedPolicyType;
 import java.util.concurrent.*;
 
 /**
- * Created by jiangwenping on 17/1/11.
+ * Created by  on 17/1/11.
  * 更新执行器
  */
 public class UpdateExecutorService implements IUpdateExecutor {

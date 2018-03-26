@@ -24,7 +24,7 @@ import java.lang.reflect.ParameterizedType;
 import java.util.TimerTask;
 
 /**
- * Created by jiangwenping on 17/4/10.
+ * Created by  on 17/4/10.
  * 异步执行更新中心
  *  这个类采用模版编程
  */

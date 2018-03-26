@@ -9,7 +9,7 @@ import com.snowcattle.game.executor.update.entity.IUpdate;
 import com.snowcattle.game.executor.common.utils.Constants;
 
 /**
- * Created by jiangwenping on 17/1/11.
+ * Created by  on 17/1/11.
  */
 public class DispatchFinishEventListener extends FinishEventListener {
 

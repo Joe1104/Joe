@@ -5,7 +5,7 @@ import com.snowcattle.game.executor.event.EventType;
 import com.snowcattle.game.executor.event.impl.event.CreateEvent;
 
 /**
- * Created by jiangwenping on 17/1/12.
+ * Created by  on 17/1/12.
  */
 public class TestCreateEvent extends CreateEvent {
     public TestCreateEvent(EventType eventType, EventParam... parms) {

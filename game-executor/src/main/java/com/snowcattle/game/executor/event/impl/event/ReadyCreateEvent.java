@@ -5,7 +5,7 @@ import com.snowcattle.game.executor.event.EventParam;
 import com.snowcattle.game.executor.event.EventType;
 
 /**
- * Created by jiangwenping on 17/1/16.
+ * Created by  on 17/1/16.
  * updateService使用
  */
 public class ReadyCreateEvent extends CycleEvent {

@@ -7,7 +7,7 @@ import java.util.Set;
 import java.util.concurrent.CopyOnWriteArraySet;
 
 /**
- * Created by jiangwenping on 17/1/6.
+ * Created by  on 17/1/6.
  */
 public abstract class AbstractEventListener implements IEventListener {
 

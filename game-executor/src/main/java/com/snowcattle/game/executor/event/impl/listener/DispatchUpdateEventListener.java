@@ -13,7 +13,7 @@ import com.snowcattle.game.executor.update.service.UpdateService;
 import com.snowcattle.game.executor.update.thread.dispatch.DispatchThread;
 
 /**
- * Created by jiangwenping on 17/1/11.
+ * Created by  on 17/1/11.
  */
 public class DispatchUpdateEventListener extends UpdateEventListener {
     private DispatchThread dispatchThread;

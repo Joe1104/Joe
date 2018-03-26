@@ -1,7 +1,7 @@
 package com.snowcattle.game.executor.common;
 
 /**
- * Created by jiangwenping on 17/4/25.
+ * Created by  on 17/4/25.
  * 更新器执行类型
  */
 public enum UpdateExecutorEnum {

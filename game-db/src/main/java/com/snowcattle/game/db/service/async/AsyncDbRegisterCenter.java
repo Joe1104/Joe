@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by jiangwenping on 17/4/6.
+ * Created by  on 17/4/6.
  * db异步注册数据通知中心
  *  先把同类型的玩家数据都放在一个集合里，来保证对一个玩家的操作是顺讯执行的
  *

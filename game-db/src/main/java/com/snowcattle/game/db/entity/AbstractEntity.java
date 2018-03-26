@@ -11,7 +11,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * Created by jiangwenping on 17/3/16.
+ * Created by  on 17/3/16.
  */
 @EntitySave
 public abstract  class AbstractEntity<ID extends Serializable> extends ShardingTable implements ISoftDeleteEntity<ID>{

@@ -4,7 +4,7 @@ import com.snowcattle.game.executor.event.EventParam;
 import com.snowcattle.game.executor.event.EventType;
 
 /**
- * Created by jiangwenping on 17/1/6.
+ * Created by  on 17/1/6.
  * 事件定义
  */
 public interface IEvent{

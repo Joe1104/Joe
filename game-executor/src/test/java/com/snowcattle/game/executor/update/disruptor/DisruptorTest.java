@@ -16,7 +16,7 @@ import com.snowcattle.game.executor.common.utils.Constants;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by jiangwenping on 17/4/25.
+ * Created by  on 17/4/25.
  */
 public class DisruptorTest {
     public static void main(String[] args) throws Exception {

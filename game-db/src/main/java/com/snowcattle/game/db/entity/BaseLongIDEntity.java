@@ -6,7 +6,7 @@ import com.snowcattle.game.db.common.annotation.FieldSave;
 import com.snowcattle.game.db.common.annotation.MethodSaveProxy;
 
 /**
- * Created by jiangwenping on 17/4/5.
+ * Created by  on 17/4/5.
  */
 @EntitySave
 public class BaseLongIDEntity extends AbstractEntity<Long> {

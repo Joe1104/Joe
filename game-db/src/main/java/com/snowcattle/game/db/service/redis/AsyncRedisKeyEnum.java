@@ -1,7 +1,7 @@
 package com.snowcattle.game.db.service.redis;
 
 /**
- * Created by jiangwenping on 17/4/6.
+ * Created by  on 17/4/6.
  * 异步处处的redis key
  */
 public enum  AsyncRedisKeyEnum {

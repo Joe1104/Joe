@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * Created by jiangwenping on 17/4/5.
+ * Created by  on 17/4/5.
  */
 @Service
 public class MoreOrderService extends EntityService<MoreOrder> implements IMoreOrderService {
