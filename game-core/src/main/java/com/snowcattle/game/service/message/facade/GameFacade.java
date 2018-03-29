@@ -6,6 +6,7 @@ import com.snowcattle.game.common.constant.Loggers;
 import com.snowcattle.game.common.constant.ServiceName;
 import com.snowcattle.game.common.exception.GameHandlerException;
 import com.snowcattle.game.common.scanner.ClassScanner;
+import com.snowcattle.game.common.util.StringUtils;
 import com.snowcattle.game.service.classes.loader.DefaultClassLoader;
 import com.snowcattle.game.bootstrap.manager.LocalMananger;
 import com.snowcattle.game.message.handler.AbstractMessageHandler;
@@ -20,6 +21,7 @@ import org.springframework.stereotype.Service;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -35,7 +37,7 @@ public class  GameFacade implements IFacade ,Reloadable, IService{
 
     public ClassScanner classScanner = new ClassScanner();
 
-    public String[] fileNames;
+//    public String[] fileNames;
 
     protected Map<Integer, IMessageHandler> handlers = new HashMap<Integer, IMessageHandler>();
 
@@ -72,9 +74,9 @@ public class  GameFacade implements IFacade ,Reloadable, IService{
 
     public void loadPackage(String namespace, String ext)
             throws Exception {
-        if(fileNames == null){
-            fileNames = classScanner.scannerPackage(namespace, ext);
-        }
+//        if(fileNames == null){
+        	String[]  fileNames = classScanner.scannerPackage(namespace, ext);
+//        }
         // 加载class,获取协议命令
         DefaultClassLoader defaultClassLoader = LocalMananger.getInstance().getLocalSpringServiceManager().getDefaultClassLoader();
         defaultClassLoader.resetDynamicGameClassLoader();
@@ -84,8 +86,9 @@ public class  GameFacade implements IFacade ,Reloadable, IService{
             for (String fileName : fileNames) {
                 String realClass = namespace
                         + "."
-                        + fileName.subSequence(0, fileName.length()
-                        - (ext.length()));
+                        + fileName.subSequence(0, fileName.length() - (ext.length()));
+                
+                
 //                Class<?> messageClass = null;
 //                FileClassLoader fileClassLoader = defaultClassLoader.getDefaultClassLoader();
 //                if (!defaultClassLoader.isJarLoad()) {
@@ -104,9 +107,14 @@ public class  GameFacade implements IFacade ,Reloadable, IService{
 //                    byte[] bytes = fileClassLoader.getClassData(realClass);
 //                    messageClass = dynamicGameClassLoader.findClass(realClass, bytes);
 //                }
+                
+                if(realClass.indexOf("HandlerImpl") <0 ) {
+                	continue;
+                }
                 Class<?> messageClass = Class.forName(realClass);
                 logger.info("handler load: " + messageClass);
 
+                
                 IMessageHandler iMessageHandler = getMessageHandler(messageClass);
                 AbstractMessageHandler handler = (AbstractMessageHandler) iMessageHandler;
                 handler.init();
@@ -137,7 +145,7 @@ public class  GameFacade implements IFacade ,Reloadable, IService{
             if (classes == null) {
                 return null;
             }
-
+            
             IMessageHandler messageHandler = (IMessageHandler) classes
                     .newInstance();
             return messageHandler;
@@ -152,14 +160,21 @@ public class  GameFacade implements IFacade ,Reloadable, IService{
     public void reload() throws Exception {
         try {
             GameServerConfigService gameServerConfigService = LocalMananger.getInstance().getLocalSpringServiceManager().getGameServerConfigService();
-            loadPackage(gameServerConfigService.getGameServerConfig().getNetMessageHandlerNameSpace(), GlobalConstants.FileExtendConstants.Ext);
+//            loadPackage(gameServerConfigService.getGameServerConfig().getNetMessageHandlerNameSpace(), GlobalConstants.FileExtendConstants.Ext);
+            
+            String netMsgNameSpace = gameServerConfigService.getGameServerConfig().getNetMessageHandlerNameSpace();
+            List<String> splits = StringUtils.getListBySplit(netMsgNameSpace, ",");
+            for(String key: splits) {
+                loadPackage(key, GlobalConstants.FileExtendConstants.Ext);
+            }
+            
         } catch (Exception e) {
             logger.error(e.toString(), e);
         }
     }
     @Override
     public String getId() {
-        return ServiceName.GameFacade;
+        return ServiceName.GameFacade; 
     }
     @Override
     public void startup() throws Exception {

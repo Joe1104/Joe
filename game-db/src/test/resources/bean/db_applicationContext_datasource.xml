@@ -73,8 +73,8 @@
         <property name="targetDataSources">
             <map key-type="java.lang.String">
                 <entry key="jdbc_player_db0" value-ref="jdbc_player_db0"/>
-                <entry key="jdbc_player_db1" value-ref="jdbc_player_db1"/>
-                <entry key="jdbc_player_db2" value-ref="jdbc_player_db2"/>
+              <!--  <entry key="jdbc_player_db1" value-ref="jdbc_player_db1"/>
+                <entry key="jdbc_player_db2" value-ref="jdbc_player_db2"/> -->
             </map>
         </property>
         <property name="defaultTargetDataSource" ref="jdbc_player_db0"/>
@@ -116,7 +116,7 @@
         <property name="username" value="${jdbc-user-0}" />
         <property name="password" value="${jdbc-password-0}" />
     </bean>
-
+<!--
     <bean id="jdbc_player_db1" parent="parent_datasource">
         <property name="driverClassName" value="${jdbc-driver}" />
         <property name="url" value="${jdbc-url-1}" />
@@ -130,16 +130,16 @@
         <property name="username" value="${jdbc-user-2}" />
         <property name="password" value="${jdbc-password-2}" />
     </bean>
-
+ -->
     <bean id="defaultEntityServiceShardingStrategy" class="com.snowcattle.game.db.sharding.EntityServiceShardingStrategy">
-        <property name="dbCount" value="3"/>
-        <property name="tableCount" value="2"/>
+        <property name="dbCount" value="1"/>
+        <property name="tableCount" value="1"/>
         <property name="dataSource" value="jdbc_player_db"/>
     </bean>
 
     <bean id="defaultPageEntityServiceShardingStrategy" class="com.snowcattle.game.db.sharding.EntityServiceShardingStrategy">
-        <property name="dbCount" value="3"/>
-        <property name="tableCount" value="2"/>
+        <property name="dbCount" value="1"/>
+        <property name="tableCount" value="1"/>
         <property name="dataSource" value="jdbc_player_db"/>
         <property name="pageFlag" value="true"/>
         <property name="pageLimit" value="50"/>

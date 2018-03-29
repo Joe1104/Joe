@@ -9,6 +9,9 @@ import org.slf4j.LoggerFactory;
  *
  */
 public class Loggers {
+	
+	public static final Logger logstash = LoggerFactory.getLogger("logstash");
+	 
     /** Server相关的日志 */
     public static final Logger serverLogger = LoggerFactory.getLogger("server");
     /** Game Server相关的日志 */

@@ -30,6 +30,8 @@
             <version>${project.version}</version>
         </dependency>
 
+  	 
+        
         <dependency>
             <groupId>com.xx.game</groupId>
             <artifactId>game-db</artifactId>

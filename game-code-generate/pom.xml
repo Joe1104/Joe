@@ -21,6 +21,13 @@
             <artifactId>game-core</artifactId>
             <version>${project.version}</version>
         </dependency>
+        
+        
+         <dependency>
+            <groupId>com.xx.game</groupId>
+            <artifactId>game-logic</artifactId>
+            <version>${project.version}</version>
+        </dependency>
 
         <!-- test -->
         <dependency>

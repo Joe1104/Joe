@@ -49,7 +49,7 @@ public class MessageRegistry implements Reloadable, IService{
      * @throws Exception
      */
     public final AbstractNetProtoBufMessage getMessage(int commandId) {
-        if (commandId < 0)
+        if (commandId < 0) 
             return null;
 
         try {
@@ -74,10 +74,19 @@ public class MessageRegistry implements Reloadable, IService{
                         + "."
                         + fileName.subSequence(0, fileName.length()
                         - (ext.length()));
+                
+                
+                if(realClass.indexOf("ResponseMessger") <0 ) {
+                	continue;
+                }
+                
+                
                 Class<?> messageClass = Class.forName(realClass);
 
                 logger.info("message load:" + messageClass);
 
+                
+                
                 MessageCommandAnnotation annotation = (MessageCommandAnnotation) messageClass
                         .getAnnotation(MessageCommandAnnotation.class);
                 if (annotation != null) {
@@ -113,6 +122,7 @@ public class MessageRegistry implements Reloadable, IService{
         loadMessageCommand();
         GameServerConfigService gameServerConfigService = LocalMananger.getInstance().getLocalSpringServiceManager().getGameServerConfigService();
         String netMsgNameSpace = gameServerConfigService.getGameServerConfig().getNetMsgNameSpace();
+        
         List<String> splits = StringUtils.getListBySplit(netMsgNameSpace, ",");
         for(String key: splits) {
             loadPackage(key,

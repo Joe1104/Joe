@@ -14,6 +14,7 @@
         <module>game-core</module>
         <module>game-db</module>
         <module>game-common</module>
+        <module>game-logic</module>
     </modules>
 
     <repositories>

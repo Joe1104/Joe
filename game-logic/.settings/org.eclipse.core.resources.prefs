@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/test/java=UTF-8
+encoding//src/test/resources=UTF-8
+encoding//tools/excelToCode/python/generate_code.py=utf-8
+encoding//tools/excelToCode/python/sample/export/xtemp/configures.py=utf-8
+encoding//tools/excelToCode/python/sample/export/xtemp/example.py=utf-8
+encoding//tools/excelToCode/python/sample/export/xtemp/files.py=utf-8
+encoding/<project>=UTF-8
