@@ -1,4 +1,4 @@
-package com.snowcattle.game;
+package com.snowcattle.game.util;
 
 import java.io.IOException;
 
