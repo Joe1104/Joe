@@ -1,4 +1,4 @@
-package com.snowcattle.game.center.orders.handler;
+package com.snowcattle.game.center.orders;
 
 import com.snowcattle.game.common.annotation.MessageCommandAnnotation;
 import com.snowcattle.game.common.constant.Loggers;
@@ -18,7 +18,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.snowcattle.game.bootstrap.manager.LocalMananger;
 import com.snowcattle.game.bootstrap.manager.spring.LocalSpringBeanManager;
-import com.snowcattle.game.center.orders.logic.JoeResponseMessger;
 import com.snowcattle.game.message.handler.AbstractMessageHandler;
 import com.snowcattle.game.message.logic.tcp.common.CommonResponseServerMessage;
 import com.snowcattle.game.service.message.AbstractNetMessage;
@@ -31,7 +30,7 @@ import com.snowcattle.game.service.message.factory.TcpMessageFactory;
  * 2018年2月28日
  * 下午3:47:58
  */
-public class JoeHandlerImpl extends AbstractMessageHandler {
+public class JoeHandler extends AbstractMessageHandler {
 	
 	
 	public static final Logger logger = Loggers.logstash;
@@ -41,11 +40,11 @@ public class JoeHandlerImpl extends AbstractMessageHandler {
 //	private OrderXService orderXService;
 
     @MessageCommandAnnotation(command = MessageCommandIndex.JOE_TEST2)
-    public AbstractNetMessage handleMessage(JoeResponseMessger message) throws Exception {
+    public AbstractNetMessage handleMessage(JoeMessager message) throws Exception {
         
     	Long aa = new Date().getTime();
         System.out.println("-------------->:"+message.getCondition());
-        JoeResponseMessger joeResponse = new JoeResponseMessger();
+        JoeMessager joeResponse = new JoeMessager();
         joeResponse.setCondition(message.getCondition());
         System.out.println("-->message.cmd():" + message.getCmd());
         

@@ -108,7 +108,7 @@ public class  GameFacade implements IFacade ,Reloadable, IService{
 //                    messageClass = dynamicGameClassLoader.findClass(realClass, bytes);
 //                }
                 
-                if(realClass.indexOf("HandlerImpl") <0 ) {
+                if(realClass.indexOf("Handler") <0 ) {
                 	continue;
                 }
                 Class<?> messageClass = Class.forName(realClass);

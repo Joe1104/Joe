@@ -76,7 +76,7 @@ public class MessageRegistry implements Reloadable, IService{
                         - (ext.length()));
                 
                 
-                if(realClass.indexOf("ResponseMessger") <0 ) {
+                if(realClass.indexOf("Messager") <0 ) {
                 	continue;
                 }
                 

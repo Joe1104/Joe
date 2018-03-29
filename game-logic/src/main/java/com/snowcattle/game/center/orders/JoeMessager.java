@@ -1,4 +1,4 @@
-package com.snowcattle.game.center.orders.logic;
+package com.snowcattle.game.center.orders;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -17,7 +17,7 @@ import com.snowcattle.game.service.net.tcp.session.builder.NettyTcpSessionBuilde
  * 下午3:35:02
  */
 @MessageCommandAnnotation(command = MessageCommandIndex.JOE_TEST2)
-public class JoeResponseMessger extends AbstractNetProtoBufTcpMessage {
+public class JoeMessager extends AbstractNetProtoBufTcpMessage {
 	
 	private int state;
 	
