@@ -1,4 +1,4 @@
-package com.snowcattle.game.center.orders;
+package com.snowcattle.game.center.login;
 
 import com.snowcattle.game.common.annotation.MessageCommandAnnotation;
 import com.snowcattle.game.common.constant.Loggers;
@@ -25,12 +25,11 @@ import com.snowcattle.game.service.message.command.MessageCommandIndex;
 import com.snowcattle.game.service.message.factory.TcpMessageFactory;
 
 /**
- * 第一个handle ！！！
- * @author Joe
- * 2018年2月28日
- * 下午3:47:58
+ * 
+ * @author Administrator
+ *
  */
-public class JoeHandler extends AbstractMessageHandler {
+public class LoginMessageHandler extends AbstractMessageHandler {
 	
 	
 	public static final Logger logger = Loggers.logstash;
@@ -39,13 +38,27 @@ public class JoeHandler extends AbstractMessageHandler {
 //	@Autowired
 //	private OrderXService orderXService;
 
-    @MessageCommandAnnotation(command = MessageCommandIndex.C2S_ActivateSurfaceComponentMessage)
-    public AbstractNetMessage handleMessage(JoeMessager message) throws Exception {
+    @MessageCommandAnnotation(command = MessageCommandIndex.C2S_LoginMessage)
+    public AbstractNetMessage handleMessage(LoginMessageMessager message) throws Exception {
         
+    	
     	Long aa = new Date().getTime();
-        System.out.println("-------------->:"+message.getCondition());
-        JoeMessager joeResponse = new JoeMessager();
-        joeResponse.setCondition(message.getCondition());
+        System.out.println("-------------->:"+message.getCmd());
+        
+        
+        
+        int webId = message.getWebId();
+        
+       // TODO 验证重复登录 
+        
+        
+        
+        LoginService loginService = (LoginService) BeanUtil.getBean("loginService");
+        loginService.login();
+        
+        
+        LoginMessageMessager joeResponse = new LoginMessageMessager();
+//        joeResponse.setCondition(message.getCmd());
         System.out.println("-->message.cmd():" + message.getCmd());
         
         OrderXService orderXService = (OrderXService) BeanUtil.getBean("orderXService");

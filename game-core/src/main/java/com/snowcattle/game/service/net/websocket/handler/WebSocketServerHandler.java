@@ -29,7 +29,9 @@ import static io.netty.handler.codec.http.HttpVersion.HTTP_1_1;
  */
 public class WebSocketServerHandler extends SimpleChannelInboundHandler<HttpRequest> {
 
-    private static final String WEBSOCKET_PATH = "/websocket";
+//    private static final String WEBSOCKET_PATH = "/websocket";
+    
+    private static final String WEBSOCKET_PATH = "";
 
     private WebSocketServerHandshaker handshaker;
 
@@ -73,11 +75,13 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<HttpRequ
 //            sendHttpResponse(ctx, req, res);
 //            return;
 //        }
-        if ("/favicon.ico".equals(req.uri()) || "/".equals(req.uri())) {
-            FullHttpResponse res = new DefaultFullHttpResponse(HTTP_1_1, NOT_FOUND);
-            sendHttpResponse(ctx, req, res);
-            return;
-        }
+        
+        //zanshi
+//        if ("/favicon.ico".equals(req.uri()) || "/".equals(req.uri())) {
+//            FullHttpResponse res = new DefaultFullHttpResponse(HTTP_1_1, NOT_FOUND);
+//            sendHttpResponse(ctx, req, res);
+//            return;
+//        }
 
         // Handshake
         WebSocketServerHandshakerFactory wsFactory = new WebSocketServerHandshakerFactory(
@@ -116,6 +120,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<HttpRequ
 
     private static String getWebSocketLocation(HttpRequest req) {
         String location =  req.headers().get(HttpHeaderNames.HOST) + WEBSOCKET_PATH;
+        
         return "ws://" + location;
 //        if (WebSocketServer.SSL) {
 //            return "wss://" + location;

@@ -10,7 +10,7 @@ import java.io.IOException;
  */
 public class GenProtobuf {
     public static void main(String[] args) {
-        String protoFile = "joe_response.proto";//  
+        String protoFile = "login.proto";//  
         String toolPath = "e:/git/JoeServer/game-logic/proto/windows/protoc.exe";
         String projectPath  =  "e:/git/JoeServer/game-logic/";
 //        String strCmd = "e:/git/JoeServer/game-logic/proto/windows/protoc.exe -I e:/git/JoeServer/game-logic/proto --java_out=e:/git/JoeServer/game-logic/src/main/java e:/git/JoeServer/game-logic/proto/" + protoFile;

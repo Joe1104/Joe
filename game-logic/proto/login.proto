@@ -1,0 +1,17 @@
+option java_package = "com.snowcattle.game.auto";
+option java_outer_classname = "LoginMessageProto";
+
+//登陆消息
+message C2S_LoginMessage
+{	
+    //玩家用户名
+    optional string name = 1 [default = ""];
+    //玩家密码
+    optional string password = 2 [default = ""];
+    //平台Id
+    optional int32 webid = 3 [default = 0];
+    //服务器Id
+    optional int32 serverId = 4 [default = 0];
+}
+ 
+ 

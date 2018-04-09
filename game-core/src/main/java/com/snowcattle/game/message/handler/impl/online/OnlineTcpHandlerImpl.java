@@ -36,6 +36,7 @@ public class OnlineTcpHandlerImpl extends AbstractMessageHandler {
         GamePlayer gamePlayer = new GamePlayer(clientSesion.getNettyTcpNetMessageSender(), playerId, tocken);
         GamePlayerLoopUpService gamePlayerLoopUpService = LocalMananger.getInstance().getLocalSpringServiceManager().getGamePlayerLoopUpService();
         gamePlayerLoopUpService.addT(gamePlayer);
+         
         return onlineLoginServerTcpMessage;
     }
 }

@@ -16,7 +16,7 @@ import com.snowcattle.game.service.net.tcp.session.builder.NettyTcpSessionBuilde
  * 2018年2月28日
  * 下午3:35:02
  */
-@MessageCommandAnnotation(command = MessageCommandIndex.JOE_TEST2)
+@MessageCommandAnnotation(command = MessageCommandIndex.C2S_AchieveListMessage)
 public class JoeMessager extends AbstractNetProtoBufTcpMessage {
 	
 	private int state;
